@@ -20,12 +20,97 @@
     [/^(EN|AR|عربي|English)$/i, '@lang'],
     [/^(طلب العروض|Get Quotations|Request Offers|Get Quotes)$/i, '@quote']
   ];
+  // The captured pages scroll inside <body>, so the arrow scrolls every possible scroller.
+  function scrollToTop() {
+    [document.body, document.documentElement, document.scrollingElement].forEach(function (el) {
+      if (el && el.scrollTo) el.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  // Support chat window like the original. It is local only: typed text is never sent, queued or stored.
+  var chatBox = null;
+  function openChat() {
+    if (chatBox) { chatBox.hidden = false; var i = chatBox.querySelector('input'); if (i) i.focus(); return; }
+    var ar = lang === 'ar';
+    var T = ar
+      ? { name: 'B Care', sub: 'الدعم الفني', hi: 'مرحباً بك في خدمة الدعم', how: 'كيف يمكننا مساعدتك؟', ph: 'اكتب رسالتك...', close: 'إغلاق', send: 'إرسال', off: 'خدمة الدردشة غير متصلة بالخادم حالياً، ولم يتم إرسال رسالتك.', fail: 'لم يتم إرسال الرسالة، حاول مجدداً.' }
+      : { name: 'B Care', sub: 'Technical Support', hi: 'Welcome to the support service', how: 'How can we help you?', ph: 'Type your message...', close: 'Close', send: 'Send', off: 'Chat is not connected to the server yet, so your message was not sent.', fail: 'Your message was not sent. Please try again.' };
+    var logo = '/ref/assets/bcare.com.sa/assets/images/Bcare-logo.svg';
+    var style = document.createElement('style');
+    style.textContent = '#ref-chat{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.35);font-family:inherit}' +
+      '#ref-chat[hidden]{display:none}' +
+      '#ref-chat .rc-win{width:448px;max-width:calc(100vw - 24px);height:500px;max-height:calc(100vh - 24px);background:#fff;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 10px 40px rgba(0,0,0,.3)}' +
+      '#ref-chat .rc-head{background:#146394;color:#fff;display:flex;align-items:center;gap:12px;padding:14px 20px;height:72px;flex:none}' +
+      '#ref-chat .rc-av{width:40px;height:40px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;flex:none;overflow:hidden}' +
+      '#ref-chat .rc-av img{width:30px;height:30px;object-fit:contain}' +
+      '#ref-chat .rc-t{flex:1;min-width:0;line-height:1.3}#ref-chat .rc-t b{display:block;font-size:14px}#ref-chat .rc-t span{font-size:12px;opacity:.9}' +
+      '#ref-chat .rc-x{background:none;border:0;color:#fff;font-size:26px;line-height:1;cursor:pointer;padding:4px 8px}' +
+      '#ref-chat .rc-body{flex:1;background:#f8f9fb;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;color:#6b7280;padding:16px}' +
+      '#ref-chat .rc-body img{width:68px;margin-bottom:20px}#ref-chat .rc-body p{margin:0;font-size:16px}#ref-chat .rc-body p+p{font-size:13px}' +
+      '#ref-chat .rc-msgs{width:100%;display:flex;flex-direction:column;gap:6px;max-height:55%;overflow:auto;margin-top:8px}' +
+      '#ref-chat .rc-m{max-width:80%;padding:8px 12px;border-radius:14px;font-size:14px;text-align:start;word-break:break-word}' +
+      '#ref-chat .rc-m.me{align-self:flex-start;background:#146394;color:#fff}#ref-chat .rc-m.them{align-self:flex-end;background:#e8edf2;color:#1f2937}' +
+      '#ref-chat .rc-note{font-size:12px;color:#146394;margin-top:12px}' +
+      '#ref-chat .rc-foot{display:flex;align-items:center;gap:10px;padding:16px;border-top:1px solid #e5e7eb;background:#fff;flex:none}' +
+      '#ref-chat .rc-foot input{flex:1;min-width:0;height:42px;border:1px solid #d9dde3;border-radius:21px;padding:0 16px;font-size:14px;outline:none;background:#fff}' +
+      '#ref-chat .rc-foot input:focus{border-color:#146394}' +
+      '#ref-chat .rc-send{width:36px;height:36px;border-radius:50%;border:0;background:#9fb4c9;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;flex:none}' +
+      '#ref-chat .rc-send svg{width:18px;height:18px}' + (ar ? '#ref-chat .rc-send svg{transform:scaleX(-1)}' : '');
+    document.head.appendChild(style);
+    chatBox = document.createElement('div');
+    chatBox.id = 'ref-chat';
+    chatBox.setAttribute('dir', ar ? 'rtl' : 'ltr');
+    chatBox.innerHTML = '<div class="rc-win" role="dialog" aria-modal="true" aria-label="' + T.name + '">' +
+      '<div class="rc-head"><div class="rc-av"><img alt="" src="' + logo + '"></div>' +
+      '<div class="rc-t"><b>' + T.name + '</b><span>' + T.sub + '</span></div>' +
+      '<button type="button" class="rc-x" aria-label="' + T.close + '">&times;</button></div>' +
+      '<div class="rc-body"><img alt="" src="' + logo + '"><p>' + T.hi + '</p><p>' + T.how + '</p><div class="rc-msgs"></div><div class="rc-note" role="status" hidden>' + T.off + '</div></div>' +
+      '<div class="rc-foot"><input type="text" autocomplete="off" placeholder="' + T.ph + '">' +
+      '<button type="button" class="rc-send" aria-label="' + T.send + '"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></button></div></div>';
+    document.body.appendChild(chatBox);
+    var input = chatBox.querySelector('input'), note = chatBox.querySelector('.rc-note'), msgs = chatBox.querySelector('.rc-msgs');
+    var pending = {}, busy = false;
+    function bubble(text, who) {
+      var d = document.createElement('div'); d.className = 'rc-m ' + who; d.textContent = text;
+      msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight; return d;
+    }
+    function close() { chatBox.hidden = true; input.value = ''; note.hidden = true; }
+    // The page that hosts this copy owns the Socket.IO connection; nothing is queued or stored here.
+    function send() {
+      var text = input.value.trim();
+      if (!text || busy || window.parent === window) return;
+      var id = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + Math.random();
+      busy = true; note.hidden = true; input.value = '';
+      pending[id] = { el: bubble(text, 'me'), text: text };
+      window.parent.postMessage({ type: 'ref-chat-send', id: id, text: text }, location.origin);
+    }
+    window.addEventListener('message', function (e) {
+      if (e.origin !== location.origin || !e.data) return;
+      var d = e.data;
+      if (d.type === 'ref-chat-result' && pending[d.id]) {
+        var p = pending[d.id]; delete pending[d.id]; busy = false;
+        if (!d.ok) {
+          p.el.remove(); input.value = p.text;
+          note.textContent = d.reason === 'offline' ? T.off : T.fail; note.hidden = false;
+        }
+      } else if (d.type === 'ref-chat-incoming' && typeof d.text === 'string') {
+        bubble(d.text, 'them');
+      }
+    });
+    chatBox.querySelector('.rc-x').addEventListener('click', close);
+    chatBox.querySelector('.rc-send').addEventListener('click', send);
+    input.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); send(); } });
+    chatBox.addEventListener('click', function (e) { if (e.target === chatBox) close(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && chatBox && !chatBox.hidden) close(); });
+    input.focus();
+  }
   function text(el) { return (el.textContent || '').replace(/\s+/g, ' ').trim(); }
   document.addEventListener('click', function (e) {
     var t = e.target;
     var nav = t.closest('[data-ref-nav]');
     if (nav) { e.preventDefault(); go(nav.getAttribute('data-ref-nav')); return; }
-    if (t.closest('img[src*="top.svg"]')) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    if (t.closest('img[src*="top.svg"]')) { e.preventDefault(); scrollToTop(); return; }
+    if (t.closest('bcare-bubbles .bubble-frame')) { e.preventDefault(); openChat(); return; }
     if (t.closest('bcare-landing-logo')) { e.preventDefault(); go('/'); return; }
     var el = t.closest('a, button');
     if (!el) return;
