@@ -47,17 +47,30 @@
   }, true);
   document.addEventListener('submit', function (e) { e.preventDefault(); }, true);
   // Restore captured Motor form readiness without sending or persisting its data.
-  if (/^motor-/.test(file)) {
+   if (/^(motor|helpers|mm|travel)-/.test(file)) {
     document.querySelectorAll('form[data-ref-form]').forEach(function (form) {
-      var fields = Array.prototype.slice.call(form.querySelectorAll('input[type=number]'));
+      var fields = Array.prototype.slice.call(form.querySelectorAll('input[type=number], input[type=text], input:not([type])'));
       var consent = form.querySelector('input[type=checkbox]');
       var button = form.querySelector('button.bg-newYellow');
-      var identity = form.querySelector('input[placeholder="رقم الهوية / الإقامة"], input[placeholder="National Id / Iqama"]');
-      if (!button || !consent || fields.length !== 3) return;
-      // National Id / Iqama: exactly 10 digits starting with 1 or 2.
+      if (!button || !consent || !fields.length) return;
+      // National Id / Iqama / Sponsor ID: exactly 10 digits starting with 1 or 2.
+      var identityFields = fields.filter(function (field) {
+        return /هوية|iqama|national id/i.test(field.placeholder || '');
+      });
       function validIdentity() {
-        return !identity || /^[12]\d{9}$/.test(identity.value.trim());
+        return identityFields.every(function (field) {
+          return /^[12]\d{9}$/.test(field.value.trim());
+        });
       }
+      // Digits only, capped at 10, while typing.
+      identityFields.forEach(function (field) {
+        field.setAttribute('maxlength', '10');
+        field.setAttribute('inputmode', 'numeric');
+        field.addEventListener('input', function () {
+          var digits = field.value.replace(/\D/g, '').slice(0, 10);
+          if (field.value !== digits) field.value = digits;
+        });
+      });
       var status = document.createElement('p');
       status.setAttribute('role', 'status');
       status.className = 'w-full text-center text-sm text-light-blue';
