@@ -139,7 +139,7 @@ describe('Captured Motor form readiness', () => {
     expect(identity.classList.contains('ref-id-invalid')).toBe(false);
   });
 
-  it('applies the same rule to the facilities commercial registration field', () => {
+  it('accepts any 10 digits in the facilities commercial registration field without a check digit', () => {
     vi.useFakeTimers();
     document.body.innerHTML = readFileSync('public/ref/medical-ar.html', 'utf8');
     new Function('location', script)({ pathname: '/ref/medical-ar.html', origin: window.location.origin });
@@ -161,18 +161,72 @@ describe('Captured Motor form readiness', () => {
     });
     consent.checked = true;
     consent.dispatchEvent(new Event('change', { bubbles: true }));
-    cr.value = '54353454353453454354534534543534'; // 32 digits, starts with 5
+    cr.value = '54353454353453454354534534543534'; // 32 digits: only the first 10 are kept
     cr.dispatchEvent(new Event('input', { bubbles: true }));
-    expect(cr.value).toBe(''); // rejected entirely
-    expect(button.disabled).toBe(true);
+    expect(cr.value).toBe('5435345435');
+    expect(button.disabled).toBe(false);
+    expect(box.hidden).toBe(true);
     cr.value = '123456789'; // 9 digits
     cr.dispatchEvent(new Event('input', { bubbles: true }));
     expect(button.disabled).toBe(true);
     expect(box.hidden).toBe(false);
-    cr.value = '1234567890';
+    // 7001234567 fails the identity check digit: the CR field must still accept it.
+    cr.value = '7001234567';
     cr.dispatchEvent(new Event('input', { bubbles: true }));
     expect(button.disabled).toBe(false);
     expect(box.hidden).toBe(true);
+    cr.value = 'abcdefghij'; // letters are never entered
+    cr.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(cr.value).toBe('');
+    expect(button.disabled).toBe(true);
+  });
+
+  it('lets a commercial registration start with any digit but never exceeds 10', () => {
+    vi.useFakeTimers();
+    document.body.innerHTML = readFileSync('public/ref/medical-ar.html', 'utf8');
+    new Function('location', script)({ pathname: '/ref/medical-ar.html', origin: window.location.origin });
+    const form = document.querySelector('form[data-ref-form]');
+    if (!(form instanceof HTMLFormElement)) throw new Error('Facilities form missing');
+    const cr = form.querySelector('input[placeholder="السجل التجاري/ الرقم الموحد"]');
+    if (!(cr instanceof HTMLInputElement)) throw new Error('Commercial registration field missing');
+    const press = (key: string) => {
+      const event = new KeyboardEvent('keydown', { key, cancelable: true, bubbles: true });
+      cr.dispatchEvent(event);
+      return event.defaultPrevented;
+    };
+    expect(press('7')).toBe(false); // a CR may start with 7
+    expect(press('a')).toBe(true); // letters cannot be typed
+    cr.value = '7001234567';
+    expect(press('7')).toBe(true); // an 11th digit cannot be typed
+    expect(press('Backspace')).toBe(false); // deleting stays possible
+  });
+
+  it('applies the same digits-only rule to the English facilities field', () => {
+    vi.useFakeTimers();
+    document.body.innerHTML = readFileSync('public/ref/medical-en.html', 'utf8');
+    new Function('location', script)({ pathname: '/ref/medical-en.html', origin: window.location.origin });
+    const form = document.querySelector('form[data-ref-form]');
+    if (!(form instanceof HTMLFormElement)) throw new Error('English facilities form missing');
+    const button = form.querySelector('button[type=submit]');
+    const consent = form.querySelector('input[type=checkbox]');
+    const cr = form.querySelector('input[placeholder="Company CR or Company Unified Number"]');
+    if (!(button instanceof HTMLButtonElement) || !(consent instanceof HTMLInputElement) || !(cr instanceof HTMLInputElement))
+      throw new Error('Controls missing');
+    const fields = Array.from(form.querySelectorAll<HTMLInputElement>('input[type=number]'));
+    fields.forEach((field) => {
+      if (field === cr) return;
+      field.value = '8099';
+      field.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    consent.checked = true;
+    consent.dispatchEvent(new Event('change', { bubbles: true }));
+    cr.value = '7001234567'; // starts with 7 and fails the identity check digit
+    cr.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(cr.value).toBe('7001234567');
+    expect(button.disabled).toBe(false);
+    cr.value = '700123456'; // 9 digits
+    cr.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(button.disabled).toBe(true);
   });
 
   it('requires the Ministry of Interior check digit on identity fields', () => {
