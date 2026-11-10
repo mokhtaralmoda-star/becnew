@@ -82,11 +82,48 @@ describe('Captured Motor form readiness', () => {
     expect(button.disabled).toBe(true);
     setIdentity('155555555'); // only 9 digits
     expect(button.disabled).toBe(true);
-    setIdentity('15555555555'); // 11 digits
-    expect(button.disabled).toBe(true);
+    setIdentity('15555555555'); // 11th digit is rejected while typing
+    expect(identity.value).toBe('1555555555');
+    expect(button.disabled).toBe(false);
     setIdentity('1555555555'); // starts with 1
     expect(button.disabled).toBe(false);
     setIdentity('2555555555'); // starts with 2
+    expect(button.disabled).toBe(false);
+    setIdentity('64533333333333333333333333333333'); // overlong input is truncated to 10 digits
+    expect(identity.value).toBe('6453333333');
+    expect(button.disabled).toBe(true); // truncated value starts with 6
+  });
+
+  it.each(['travel-ar.html', 'helpers-ar.html'])('applies the same identity rule on %s', (file) => {
+    vi.useFakeTimers();
+    document.body.innerHTML = readFileSync(`public/ref/${file}`, 'utf8');
+    new Function('location', script)({ pathname: `/ref/${file}`, origin: window.location.origin });
+    const form = document.querySelector('form[data-ref-form]');
+    if (!(form instanceof HTMLFormElement)) throw new Error('Form missing');
+    const button = form.querySelector('button.bg-newYellow');
+    const consent = form.querySelector('input[type=checkbox]');
+    if (!(button instanceof HTMLButtonElement) || !(consent instanceof HTMLInputElement)) throw new Error('Controls missing');
+    expect(button.disabled).toBe(true);
+    const fields = Array.from(
+      form.querySelectorAll<HTMLInputElement>('input[type=number], input[type=text], input:not([type])'),
+    );
+    const identity = fields.find((field) => /هوية|iqama|national id/i.test(field.placeholder));
+    if (!identity) throw new Error('Identity field missing');
+    fields.forEach((field) => {
+      if (field === identity) return;
+      field.value = '5444444444';
+      field.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    consent.checked = true;
+    consent.dispatchEvent(new Event('change', { bubbles: true }));
+    identity.value = '5555555555'; // starts with 5
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(button.disabled).toBe(true);
+    identity.value = '155555555'; // only 9 digits
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(button.disabled).toBe(true);
+    identity.value = '1555555555';
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
     expect(button.disabled).toBe(false);
   });
 });
