@@ -57,13 +57,29 @@
       var button = form.querySelector('button.bg-newYellow') || form.querySelector('button[type=submit]');
       if (!button || !consent || !fields.length) return;
       // National Id / Iqama / Sponsor ID / Company CR: exactly 10 digits starting with 1 or 2.
+      var ID_RE = /هوية|iqama|national id/i;
+      var CR_RE = /سجل|موحد|unified|company cr/i;
       var identityFields = fields.filter(function (field) {
-        return /هوية|iqama|national id|سجل|موحد|unified|company cr/i.test(field.placeholder || '');
+        return ID_RE.test(field.placeholder || '') || CR_RE.test(field.placeholder || '');
       });
+      // Ministry of Interior check digit: double positions 1,3,5,7,9, add the rest, total divisible by 10.
+      function checkDigitOk(value) {
+        var sum = 0;
+        for (var i = 0; i < value.length; i++) {
+          var d = Number(value[i]);
+          if (i % 2 === 0) d = d * 2 > 9 ? d * 2 - 9 : d * 2;
+          sum += d;
+        }
+        return sum % 10 === 0;
+      }
+      function validField(field) {
+        var value = field.value.trim();
+        if (!/^[12]\d{9}$/.test(value)) return false;
+        // Company CR / Unified numbers publish no check digit, so only the format is checked there.
+        return CR_RE.test(field.placeholder || '') ? true : checkDigitOk(value);
+      }
       function validIdentity() {
-        return identityFields.every(function (field) {
-          return /^[12]\d{9}$/.test(field.value.trim());
-        });
+        return identityFields.every(validField);
       }
       function idErrorText(field) {
         var ph = (field.placeholder || '').trim();
@@ -78,8 +94,7 @@
         return [field.value.length, field.value.length];
       }
       function showIdError(field) {
-        var invalid = field.value.trim() !== '' && !/^[12]\d{9}$/.test(field.value.trim());
-        setIdLook(field, invalid);
+        setIdLook(field, field.value.trim() !== '' && !validField(field));
       }
       // Inline !important so the captured page's own focus/border rules cannot hide it.
       function setIdLook(field, invalid) {
