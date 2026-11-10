@@ -97,8 +97,10 @@
         } catch (err) { /* number inputs reject selection APIs */ }
         return [field.value.length, field.value.length];
       }
-      function showIdError(field) {
-        setIdLook(field, field.value.trim() !== '' && !validField(field));
+      function showIdError(field, final) {
+        var v = field.value.trim();
+        // The error appears only once the last (10th) digit is entered, never earlier.
+        setIdLook(field, v.length >= 10 && !validField(field));
       }
       // Inline !important so the captured page's own focus/border rules cannot hide it.
       function setIdLook(field, invalid) {
@@ -137,7 +139,7 @@
           var data = e.clipboardData ? e.clipboardData.getData('text') : '';
           var digits = (data || '').replace(/\D/g, '').slice(0, 10);
           if (!digits || (!isCrField(field) && !/^[12]\d{0,9}$/.test(digits))) {
-            setIdLook(field, true);
+            setIdLook(field, digits.length >= 10);
             return;
           }
           var range = caretRange(field);
@@ -150,7 +152,7 @@
           if (digits && !isCrField(field) && !/^[12]/.test(digits)) {
             // A number that cannot be valid is not entered at all, but the reason stays visible.
             field.value = '';
-            setIdLook(field, true);
+            setIdLook(field, digits.length >= 10);
             return;
           }
           if (field.value !== digits) field.value = digits;
