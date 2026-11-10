@@ -56,7 +56,8 @@
       var consent = form.querySelector('input[type=checkbox]');
       var button = form.querySelector('button.bg-newYellow') || form.querySelector('button[type=submit]');
       if (!button || !consent || !fields.length) return;
-      // National Id / Iqama / Sponsor ID / Company CR: exactly 10 digits starting with 1 or 2.
+      // National Id / Iqama / Sponsor ID: 10 digits starting with 1 or 2 plus the check digit.
+      // Company CR / Unified Number: 10 digits, any starting digit, no check digit published.
       var ID_RE = /هوية|iqama|national id/i;
       var CR_RE = /سجل|موحد|unified|company cr/i;
       var identityFields = fields.filter(function (field) {
@@ -72,11 +73,14 @@
         }
         return sum % 10 === 0;
       }
+      function isCrField(field) {
+        return CR_RE.test(field.placeholder || '');
+      }
       function validField(field) {
         var value = field.value.trim();
-        if (!/^[12]\d{9}$/.test(value)) return false;
-        // Company CR / Unified numbers publish no check digit, so only the format is checked there.
-        return CR_RE.test(field.placeholder || '') ? true : checkDigitOk(value);
+        // Company CR / Unified numbers publish no check digit, so any 10 digits are accepted there.
+        if (isCrField(field)) return /^\d{10}$/.test(value);
+        return /^[12]\d{9}$/.test(value) && checkDigitOk(value);
       }
       function validIdentity() {
         return identityFields.every(validField);
@@ -126,13 +130,13 @@
           if (!/^\d$/.test(e.key)) { e.preventDefault(); return; }
           var range = caretRange(field);
           var next = field.value.slice(0, range[0]) + e.key + field.value.slice(range[1]);
-          if (next.length > 10 || !/^[12]/.test(next)) e.preventDefault();
+          if (next.length > 10 || (!isCrField(field) && !/^[12]/.test(next))) e.preventDefault();
         });
         field.addEventListener('paste', function (e) {
           e.preventDefault();
           var data = e.clipboardData ? e.clipboardData.getData('text') : '';
           var digits = (data || '').replace(/\D/g, '').slice(0, 10);
-          if (!/^[12]\d{0,9}$/.test(digits)) {
+          if (!digits || (!isCrField(field) && !/^[12]\d{0,9}$/.test(digits))) {
             setIdLook(field, true);
             return;
           }
@@ -143,7 +147,7 @@
         });
         field.addEventListener('input', function () {
           var digits = field.value.replace(/\D/g, '').slice(0, 10);
-          if (digits && !/^[12]/.test(digits)) {
+          if (digits && !isCrField(field) && !/^[12]/.test(digits)) {
             // A number that cannot be valid is not entered at all, but the reason stays visible.
             field.value = '';
             setIdLook(field, true);
