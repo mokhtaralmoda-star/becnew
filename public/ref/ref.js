@@ -54,7 +54,9 @@
       '#ref-chat .rc-foot{display:flex;align-items:center;gap:10px;padding:16px;border-top:1px solid #e5e7eb;background:#fff;flex:none}' +
       '#ref-chat .rc-foot input{flex:1;min-width:0;height:42px;border:1px solid #d9dde3;border-radius:21px;padding:0 16px;font-size:14px;outline:none;background:#fff}' +
       '#ref-chat .rc-foot input:focus{border-color:#146394}' +
-      '#ref-chat .rc-send{width:36px;height:36px;border-radius:50%;border:0;background:#9fb4c9;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;flex:none}' +
+      '#ref-chat{--rc-send-active:#146394;--rc-send-inactive:#9fb4c9}' +
+      '#ref-chat .rc-send{width:36px;height:36px;border-radius:50%;border:0;background:var(--rc-send-active);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;flex:none}' +
+      '#ref-chat .rc-send:disabled{background:var(--rc-send-inactive);cursor:default}' +
       '#ref-chat .rc-send svg{width:18px;height:18px}' + (ar ? '#ref-chat .rc-send svg{transform:scaleX(-1)}' : '');
     document.head.appendChild(style);
     chatBox = document.createElement('div');
@@ -66,21 +68,26 @@
       '<button type="button" class="rc-x" aria-label="' + T.close + '">&times;</button></div>' +
       '<div class="rc-body"><img alt="" src="' + logo + '"><p>' + T.hi + '</p><p>' + T.how + '</p><div class="rc-msgs"></div><div class="rc-note" role="status" hidden>' + T.off + '</div></div>' +
       '<div class="rc-foot"><input type="text" autocomplete="off" placeholder="' + T.ph + '">' +
-      '<button type="button" class="rc-send" aria-label="' + T.send + '"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></button></div></div>';
+      '<button type="button" class="rc-send" disabled aria-label="' + T.send + '"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></button></div></div>';
     document.body.appendChild(chatBox);
     var input = chatBox.querySelector('input'), note = chatBox.querySelector('.rc-note'), msgs = chatBox.querySelector('.rc-msgs');
     var pending = {}, busy = false;
+    var sendButton = chatBox.querySelector('.rc-send');
+    function updateSendReady() {
+      sendButton.disabled = busy || !input.value.trim();
+    }
     function bubble(text, who) {
       var d = document.createElement('div'); d.className = 'rc-m ' + who; d.textContent = text;
       msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight; return d;
     }
-    function close() { chatBox.hidden = true; input.value = ''; note.hidden = true; }
+    function close() { chatBox.hidden = true; input.value = ''; note.hidden = true; updateSendReady(); }
     // The page that hosts this copy owns the Socket.IO connection; nothing is queued or stored here.
     function send() {
       var text = input.value.trim();
       if (!text || busy || window.parent === window) return;
       var id = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + Math.random();
       busy = true; note.hidden = true; input.value = '';
+      updateSendReady();
       pending[id] = { el: bubble(text, 'me'), text: text };
       window.parent.postMessage({ type: 'ref-chat-send', id: id, text: text }, location.origin);
     }
@@ -93,12 +100,14 @@
           p.el.remove(); input.value = p.text;
           note.textContent = d.reason === 'offline' ? T.off : T.fail; note.hidden = false;
         }
+        updateSendReady();
       } else if (d.type === 'ref-chat-incoming' && typeof d.text === 'string') {
         bubble(d.text, 'them');
       }
     });
     chatBox.querySelector('.rc-x').addEventListener('click', close);
-    chatBox.querySelector('.rc-send').addEventListener('click', send);
+    sendButton.addEventListener('click', send);
+    input.addEventListener('input', updateSendReady);
     input.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); send(); } });
     chatBox.addEventListener('click', function (e) { if (e.target === chatBox) close(); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && chatBox && !chatBox.hidden) close(); });
