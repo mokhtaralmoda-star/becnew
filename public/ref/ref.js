@@ -46,30 +46,98 @@
     }
   }, true);
   document.addEventListener('submit', function (e) { e.preventDefault(); }, true);
-  // Restore captured Motor form readiness without sending or persisting its data.
-   if (/^(motor|helpers|mm|travel)-/.test(file)) {
+  // Restore captured form readiness without sending or persisting its data.
+  if (/^(motor|helpers|mm|travel|medical)-/.test(file)) {
+    var idStyle = document.createElement('style');
+    idStyle.textContent = '.ref-id-invalid{border-color:#c82333 !important;outline:1px solid #c82333;outline-offset:-1px}.ref-id-error{background:#fde8e8;color:#c82333;font-size:12px;line-height:1.6;padding:4px 8px;margin:4px 0 0;text-align:start}';
+    document.head.appendChild(idStyle);
     document.querySelectorAll('form[data-ref-form]').forEach(function (form) {
       var fields = Array.prototype.slice.call(form.querySelectorAll('input[type=number], input[type=text], input:not([type])'));
       var consent = form.querySelector('input[type=checkbox]');
-      var button = form.querySelector('button.bg-newYellow');
+      var button = form.querySelector('button.bg-newYellow') || form.querySelector('button[type=submit]');
       if (!button || !consent || !fields.length) return;
-      // National Id / Iqama / Sponsor ID: exactly 10 digits starting with 1 or 2.
+      // National Id / Iqama / Sponsor ID / Company CR: exactly 10 digits starting with 1 or 2.
       var identityFields = fields.filter(function (field) {
-        return /هوية|iqama|national id/i.test(field.placeholder || '');
+        return /هوية|iqama|national id|سجل|موحد|unified|company cr/i.test(field.placeholder || '');
       });
       function validIdentity() {
         return identityFields.every(function (field) {
           return /^[12]\d{9}$/.test(field.value.trim());
         });
       }
-      // Digits only, capped at 10, while typing.
+      function idErrorText(field) {
+        var ph = (field.placeholder || '').trim();
+        if (lang === 'en') return (ph || 'National Id / Iqama') + ' is incorrect';
+        return (ph || 'رقم الهوية / الإقامة') + (/سجل/.test(ph) ? ' غير صحيح' : ' غير صحيحة');
+      }
+      function caretRange(field) {
+        try {
+          var start = field.selectionStart, end = field.selectionEnd;
+          if (typeof start === 'number' && typeof end === 'number') return [start, end];
+        } catch (err) { /* number inputs reject selection APIs */ }
+        return [field.value.length, field.value.length];
+      }
+      function showIdError(field) {
+        var invalid = field.value.trim() !== '' && !/^[12]\d{9}$/.test(field.value.trim());
+        setIdLook(field, invalid);
+      }
+      // Inline !important so the captured page's own focus/border rules cannot hide it.
+      function setIdLook(field, invalid) {
+        if (invalid) {
+          field.style.setProperty('border-color', '#c82333', 'important');
+          field.style.setProperty('outline', '1px solid #c82333', 'important');
+          field.style.setProperty('outline-offset', '-1px', 'important');
+        } else {
+          field.style.removeProperty('border-color');
+          field.style.removeProperty('outline');
+          field.style.removeProperty('outline-offset');
+        }
+        field.classList.toggle('ref-id-invalid', invalid);
+        if (field.__refIdError) field.__refIdError.hidden = !invalid;
+      }
+      // Digits only, max 10, first digit 1 or 2 — blocked while typing or pasting.
       identityFields.forEach(function (field) {
         field.setAttribute('maxlength', '10');
         field.setAttribute('inputmode', 'numeric');
+        var box = document.createElement('p');
+        box.className = 'ref-id-error';
+        box.setAttribute('role', 'alert');
+        box.textContent = idErrorText(field);
+        box.hidden = true;
+        field.parentNode.insertBefore(box, field.nextSibling);
+        field.__refIdError = box;
+        field.addEventListener('keydown', function (e) {
+          if (e.ctrlKey || e.metaKey || e.altKey || e.key.length !== 1) return;
+          if (!/^\d$/.test(e.key)) { e.preventDefault(); return; }
+          var range = caretRange(field);
+          var next = field.value.slice(0, range[0]) + e.key + field.value.slice(range[1]);
+          if (next.length > 10 || !/^[12]/.test(next)) e.preventDefault();
+        });
+        field.addEventListener('paste', function (e) {
+          e.preventDefault();
+          var data = e.clipboardData ? e.clipboardData.getData('text') : '';
+          var digits = (data || '').replace(/\D/g, '').slice(0, 10);
+          if (!/^[12]\d{0,9}$/.test(digits)) {
+            setIdLook(field, true);
+            return;
+          }
+          var range = caretRange(field);
+          field.value = field.value.slice(0, range[0]) + digits + field.value.slice(range[1]);
+          showIdError(field);
+          field.dispatchEvent(new Event('input', { bubbles: true }));
+        });
         field.addEventListener('input', function () {
           var digits = field.value.replace(/\D/g, '').slice(0, 10);
+          if (digits && !/^[12]/.test(digits)) {
+            // A number that cannot be valid is not entered at all, but the reason stays visible.
+            field.value = '';
+            setIdLook(field, true);
+            return;
+          }
           if (field.value !== digits) field.value = digits;
+          showIdError(field);
         });
+        field.addEventListener('blur', function () { showIdError(field); });
       });
       var status = document.createElement('p');
       status.setAttribute('role', 'status');
