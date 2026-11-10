@@ -133,6 +133,21 @@ describe('Captured Motor form readiness', () => {
     expect(box.hidden).toBe(false);
     expect(box.textContent).toBe('رقم الهوية / الإقامة غير صحيحة');
     expect(identity.classList.contains('ref-id-invalid')).toBe(true);
+    identity.value = '1'; // first digits alone never show the error
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(box.hidden).toBe(true);
+    identity.dispatchEvent(new Event('blur')); // not even when leaving the field
+    expect(box.hidden).toBe(true);
+    identity.value = '5'; // a wrong first digit is rejected quietly
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(identity.value).toBe('');
+    expect(box.hidden).toBe(true);
+    identity.value = '105852994'; // 9 digits: still typing
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(box.hidden).toBe(true);
+    identity.value = '1058529941'; // last digit wrong: error appears now
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(box.hidden).toBe(false);
     identity.value = '1058529940';
     identity.dispatchEvent(new Event('input', { bubbles: true }));
     expect(box.hidden).toBe(true);
@@ -169,7 +184,9 @@ describe('Captured Motor form readiness', () => {
     cr.value = '123456789'; // 9 digits
     cr.dispatchEvent(new Event('input', { bubbles: true }));
     expect(button.disabled).toBe(true);
-    expect(box.hidden).toBe(false);
+    expect(box.hidden).toBe(true); // no error while the number is still incomplete
+    cr.dispatchEvent(new Event('blur'));
+    expect(box.hidden).toBe(true); // leaving the field early does not show the error either
     // 7001234567 fails the identity check digit: the CR field must still accept it.
     cr.value = '7001234567';
     cr.dispatchEvent(new Event('input', { bubbles: true }));
