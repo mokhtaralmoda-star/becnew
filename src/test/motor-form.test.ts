@@ -89,9 +89,88 @@ describe('Captured Motor form readiness', () => {
     expect(button.disabled).toBe(false);
     setIdentity('2555555555'); // starts with 2
     expect(button.disabled).toBe(false);
-    setIdentity('64533333333333333333333333333333'); // overlong input is truncated to 10 digits
-    expect(identity.value).toBe('6453333333');
-    expect(button.disabled).toBe(true); // truncated value starts with 6
+    setIdentity('64533333333333333333333333333333'); // does not start with 1 or 2: rejected entirely
+    expect(identity.value).toBe('');
+    expect(button.disabled).toBe(true);
+  });
+
+  it('blocks keystrokes that would break the 10-digit rule or the 1/2 start', () => {
+    vi.useFakeTimers();
+    document.body.innerHTML = readFileSync('public/ref/motor-ar.html', 'utf8');
+    new Function('location', script)({ pathname: '/ref/motor-ar.html', origin: window.location.origin });
+    const form = document.querySelector('form[data-ref-form]');
+    if (!(form instanceof HTMLFormElement)) throw new Error('Motor form missing');
+    const identity = form.querySelector('input[placeholder="رقم الهوية / الإقامة"]');
+    if (!(identity instanceof HTMLInputElement)) throw new Error('Identity field missing');
+    const press = (key: string) => {
+      const event = new KeyboardEvent('keydown', { key, cancelable: true, bubbles: true });
+      identity.dispatchEvent(event);
+      return event.defaultPrevented;
+    };
+    expect(press('5')).toBe(true); // a first digit other than 1 or 2 cannot be typed
+    expect(press('a')).toBe(true); // letters cannot be typed
+    expect(press('1')).toBe(false); // 1 is allowed as a first digit
+    identity.value = '1555555555';
+    expect(press('7')).toBe(true); // an 11th digit cannot be typed
+    expect(press('Backspace')).toBe(false); // deleting stays possible
+  });
+
+  it('shows an inline error for an invalid identity and hides it once valid', () => {
+    vi.useFakeTimers();
+    document.body.innerHTML = readFileSync('public/ref/motor-ar.html', 'utf8');
+    new Function('location', script)({ pathname: '/ref/motor-ar.html', origin: window.location.origin });
+    const form = document.querySelector('form[data-ref-form]');
+    if (!(form instanceof HTMLFormElement)) throw new Error('Motor form missing');
+    const identity = form.querySelector('input[placeholder="رقم الهوية / الإقامة"]');
+    if (!(identity instanceof HTMLInputElement)) throw new Error('Identity field missing');
+    const box = form.querySelector<HTMLElement>('.ref-id-error');
+    if (!box) throw new Error('Error banner missing');
+    expect(box.hidden).toBe(true);
+    identity.value = '6546546546';
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(box.hidden).toBe(false);
+    expect(box.textContent).toBe('رقم الهوية / الإقامة غير صحيحة');
+    expect(identity.classList.contains('ref-id-invalid')).toBe(true);
+    identity.value = '1555555555';
+    identity.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(box.hidden).toBe(true);
+    expect(identity.classList.contains('ref-id-invalid')).toBe(false);
+  });
+
+  it('applies the same rule to the facilities commercial registration field', () => {
+    vi.useFakeTimers();
+    document.body.innerHTML = readFileSync('public/ref/medical-ar.html', 'utf8');
+    new Function('location', script)({ pathname: '/ref/medical-ar.html', origin: window.location.origin });
+    const form = document.querySelector('form[data-ref-form]');
+    if (!(form instanceof HTMLFormElement)) throw new Error('Facilities form missing');
+    const button = form.querySelector('button[type=submit]');
+    const consent = form.querySelector('input[type=checkbox]');
+    const cr = form.querySelector('input[placeholder="السجل التجاري/ الرقم الموحد"]');
+    if (!(button instanceof HTMLButtonElement) || !(consent instanceof HTMLInputElement) || !(cr instanceof HTMLInputElement))
+      throw new Error('Controls missing');
+    const box = form.querySelector<HTMLElement>('.ref-id-error');
+    if (!box) throw new Error('Error banner missing');
+    expect(box.textContent).toBe('السجل التجاري/ الرقم الموحد غير صحيح');
+    const fields = Array.from(form.querySelectorAll<HTMLInputElement>('input[type=number]'));
+    fields.forEach((field) => {
+      if (field === cr) return;
+      field.value = '8099';
+      field.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    consent.checked = true;
+    consent.dispatchEvent(new Event('change', { bubbles: true }));
+    cr.value = '54353454353453454354534534543534'; // 32 digits, starts with 5
+    cr.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(cr.value).toBe(''); // rejected entirely
+    expect(button.disabled).toBe(true);
+    cr.value = '123456789'; // 9 digits
+    cr.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(button.disabled).toBe(true);
+    expect(box.hidden).toBe(false);
+    cr.value = '1234567890';
+    cr.dispatchEvent(new Event('input', { bubbles: true }));
+    expect(button.disabled).toBe(false);
+    expect(box.hidden).toBe(true);
   });
 
   it.each(['travel-ar.html', 'helpers-ar.html'])('applies the same identity rule on %s', (file) => {
