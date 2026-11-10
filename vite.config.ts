@@ -15,4 +15,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Applies only outside Lovable builds (LOVABLE_NITRO_PRESET pins Cloudflare here):
+  // self-deploys on Netlify get the netlify preset (.output/public + SSR function).
+  nitro: { preset: "netlify" },
 });
