@@ -27,3 +27,7 @@
 - [x] Fill the homepage offers carousel immediately with available original reference cards.
 - [x] Match the visible car-services and restaurants cards and carousel arrangement from image-16 and image-17, using screenshot logos where live originals are inaccessible.
 - [ ] Retrieve complete current offer catalogs and full-resolution logos; blocked by inaccessible original offer data. Unshown discount terms remain unspecified.
+- [x] Enforce the identity/CR fields: max 10 digits, first digit 1 or 2, blocked while typing and pasting, with an inline red error banner; verified on motor, travel, domestic workers, malpractice and facilities pages in both languages.
+- [x] Validate identity numbers with the Ministry of Interior check-digit formula (10 digits, first 1 or 2, total divisible by 10) before the button enables; Company CR/Unified keeps format-only checks because no check digit is published.
+- [x] Floating arrow scrolls the captured page to the top; chat button opens the support chat window from the reference (Arabic/English, all sizes).
+- [x] Chat messages are sent through Socket.IO via the host page (acknowledged, nothing queued); shows "not connected" until VITE_SOCKET_URL / backend is supplied.
