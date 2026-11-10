@@ -52,7 +52,12 @@
       var fields = Array.prototype.slice.call(form.querySelectorAll('input[type=number]'));
       var consent = form.querySelector('input[type=checkbox]');
       var button = form.querySelector('button.bg-newYellow');
+      var identity = form.querySelector('input[placeholder="رقم الهوية / الإقامة"], input[placeholder="National Id / Iqama"]');
       if (!button || !consent || fields.length !== 3) return;
+      // National Id / Iqama: exactly 10 digits starting with 1 or 2.
+      function validIdentity() {
+        return !identity || /^[12]\d{9}$/.test(identity.value.trim());
+      }
       var status = document.createElement('p');
       status.setAttribute('role', 'status');
       status.className = 'w-full text-center text-sm text-light-blue';
@@ -62,7 +67,7 @@
         // The original phone form replaces the checkbox with consent text above its button.
         var consentControl = consent.closest('mat-checkbox');
         var implicitConsent = consentControl && getComputedStyle(consentControl).display === 'none';
-        button.disabled = !(consent.checked || implicitConsent) || !fields.every(function (field) {
+        button.disabled = !(consent.checked || implicitConsent) || !validIdentity() || !fields.every(function (field) {
           return field.value.trim() !== '' && field.validity.valid;
         });
         button.setAttribute('aria-disabled', String(button.disabled));
