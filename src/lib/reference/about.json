@@ -1,0 +1,340 @@
+{
+  "ar": {
+    "tag": "div",
+    "classes": "flex flex-col sm:px-4",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-5xl font-bold mb-8 sm:text-4xl",
+        "children": [
+          " عن بي كير "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-3xl mb-4 sm:text-2xl",
+        "children": [
+          " من بي كير؟ "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-20",
+        "children": [
+          {
+            "tag": "p",
+            "classes": "mb-4",
+            "children": [
+              " تقديم خدمة مميزة، وبأسعار منافسة!، مدعمة بحماية متكاملة، ورعاية عالية "
+            ]
+          },
+          {
+            "tag": "p",
+            "classes": "",
+            "children": [
+              " منذ تأسيسها في عام 2014، تسعى شركة بروكر كير جاهدة لإضافة قيمة بارزة لسوق التأمين وإعادة التأمين السعودي حيث أن دورها لا يقتصر على تقديم بوليصة التأمين فحسب، بل أيضًا تقديم مجموعة واسعة من أفضل خدمات التأمين والاستشارات والتغطية بتكاليف تنافسية وجودة عالية من شأنها أن تلبية احتياجات عملائنا وقدراتهم من خلال فريق عمل متخصص. "
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " رؤية الشركة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " الريادة المحلية والإقليمية في خدمات وساطة التأمين وإعادة التأمين. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " رسالة الشركة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " تقديم خدمة متميزة وبأسعار مناسبة وتنافسية، مدعمة بحماية متكاملة ورعاية عالية لعملاء الشركة. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " أهداف الشركة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          {
+            "tag": "ul",
+            "classes": "",
+            "children": [
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • الحصول على نتائج مقبولة ومربحة من عمليات وساطة التأمين وإعادة التأمين، مع ضمان عائد جيد للمساهمين. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • المساهمة في تحقيق قيمة مضافة لسوق التأمين. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • تكثيف جهود الشركة لتقديم خدمات تتوافق مع احتياجات ورغبات العملاء. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • زيادة الوعي التأميني لدى العملاء وحمايتهم من كافة المخاطر المحيطة بهم. "
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " قيم الشركة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-20",
+        "children": [
+          {
+            "tag": "p",
+            "classes": "mb-2",
+            "children": [
+              " وانطلاقا من قيم ديننا الحنيف وثقافتنا المجيدة فإننا نؤمن بالقيم التالية: "
+            ]
+          },
+          {
+            "tag": "ul",
+            "classes": "",
+            "children": [
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • أخلاقيات العمل والشفافية: نعمل على ترسيخ أخلاقنا ومبادئنا في كافة أعمالنا المهنية التي نمارسها في إطار من الشفافية والوضوح. لتحقيق النزاهة والثقة. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • الجودة والتميز: تقوم الشركة بقياس أدائها من خلال تطبيق مقاييس عالية المستوى تحترم الطموحات والمساعي الكبيرة لتحقيق التميز. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • العمل الجماعي: نخصص أعلى الاستثمارات لتحسين مواردنا البشرية وتطوير مهارات التعاون والأداء لدى موظفينا "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • تحسين الأداء والعناية بعملائنا: نحن نسعى جاهدين بكل تصميم لتجاوز توقعات عملائنا، والوقوف إلى جانبهم في أصغر التفاصيل، واحتياجاتهم التأمينية. "
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "tag": "div",
+    "classes": "flex flex-col sm:px-4",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-5xl font-bold mb-8 sm:text-4xl",
+        "children": [
+          " About BCare "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-3xl mb-4 sm:text-2xl",
+        "children": [
+          " Who is BCare? "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-20",
+        "children": [
+          {
+            "tag": "p",
+            "classes": "mb-4",
+            "children": [
+              " Providing distinguished service, Competitive price!,Backed by integrated protection, and high care "
+            ]
+          },
+          {
+            "tag": "p",
+            "classes": "",
+            "children": [
+              " As established in 2014, Broker Care strives to add eminent value to Saudi insurance and reinsurance market as its role is not only to offer insurance policy but also to offer wide range of best insurance services, consultations and coverage with competitive costs and high quality that would meet our customers’ needs and abilities through specialized work team. "
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Company Vision "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " Local and regional leadership in insurance and reinsurance brokerage services. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Company Message "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " Providing distinguished service at reasonable and competitive prices, backed by integrated protection and high care, to the company's customers "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Company Goals "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          {
+            "tag": "ul",
+            "classes": "",
+            "children": [
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • Obtaining acceptable and profitable results from insurance and reinsurance brokerage operations, while ensuring a good return for the shareholders. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • Contribute to achieving added value for the insurance market. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • To intensify the company's efforts to provide services consistent with the needs and desires of customers. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • Increasing the insurance awareness of clients and protecting them from all risks surrounding them. "
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Company Values "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-20",
+        "children": [
+          {
+            "tag": "p",
+            "classes": "mb-2",
+            "children": [
+              " Based on the values ​​of our true religion and our glorious culture, we believe in the following values: "
+            ]
+          },
+          {
+            "tag": "ul",
+            "classes": "",
+            "children": [
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • Business ethics and transparency: We work to consolidate our morals and principles in all our professional work that we practice in A framework of transparency and clarity; To achieve integrity and trust. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • Quality and Excellence: The company measures its performance by applying high-level metrics that respect big ambitions and endeavors. To excellence. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • Teamwork: We allocate the highest investments to improve our human resources and develop cooperation and performance skills To our employees. "
+                ]
+              },
+              {
+                "tag": "li",
+                "classes": "mb-1",
+                "children": [
+                  " • Improving performance and caring for our customers: We strive with determination to exceed our customers' expectations, and stand by them in the smallest details. Their insurance needs. "
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

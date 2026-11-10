@@ -1,0 +1,29 @@
+# Requested work
+- [x] Restore Motor offer button readiness after fields and consent are filled; keep submission disconnected and verify Arabic/English desktop/tablet/phone.
+- [x] Copy the original motor-insurance tab verbatim in Arabic/English and desktop/tablet/phone, with internal navigation and disconnected submission; verify tab navigation and local field interactions at 1280/883/390px.
+- [x] Reproduce the existing Arabic homepage, quote entry and informational pages without changing the visual identity.
+- [x] Exclude insurance offer/results pages and all payment pages and functionality.
+- [x] Prepare a disconnected Socket.IO client and documented event contract for the backend to be supplied later.
+- [x] Verify the pages, navigation, responsive layout and disconnected state.
+- [x] No button/link in the project points to an external URL.
+- [x] English mode (?lang=en, LTR) fully translated: motor, insurance-request, about, privacy, terms, verify.
+- [x] Every tab opens its page like the original: product tabs (motor, medical malpractice, travel, domestic workers), audience toggle, footer tabs.
+- [x] Use the reference's small and large images, and make every visible section/tab/control work locally.
+- [x] Copy every page we have (home, motor, request, about, privacy, terms, verify) exactly from the reference, with its images.
+- [x] Copy the available original typography, hero/form dimensions and product-page frame for travel, malpractice, domestic workers and establishment medical; verify all four pages on desktop, tablet and phone.
+- [x] Match the four product pages to the original in Arabic, English and on phones (wording, consent text, captcha, floating buttons, tab icons).
+- [x] Match the header frame and navigation destination when selecting each product tab.
+- [x] Audit available reference captures, copy verified product footer wording and mobile form spacing, and check all 11 existing pages in both languages at desktop/tablet/phone widths.
+- [x] Fetch the original through the website gateway and replace about/privacy/terms with full bilingual original content and its company-page frame.
+- [x] Replace motor and print-policy screens with the original field arrangement and correct page frame; retain disconnected submission.
+- [ ] Complete exact visual comparison of all homepage sections and insurance-request states; their full interactive reference states are not yet captured.
+- [x] Correct source-confirmed product container widths, header breakpoint/tab sizes, hero spacing, per-product field tracks and malpractice calendar; verify the four pages in both languages at 1280/883/360px. Full pixel parity remains unverified.
+- [x] Copy the four product tab pages verbatim from the original (Arabic/English, desktop/tablet/phone) with internal-only navigation.
+- [ ] Backend integration waits for the user's backend.
+
+- [x] Replace product tab entry screens with main-site landing pages shown in the user screenshots; retain forms behind internal request buttons.
+- [x] Copy the homepage verbatim from the original (Arabic/English, desktop/tablet/phone) like the product tabs.
+- [x] Speed up the site: shrink captured page payloads and images without visual change.
+- [x] Fill the homepage offers carousel immediately with available original reference cards.
+- [x] Match the visible car-services and restaurants cards and carousel arrangement from image-16 and image-17, using screenshot logos where live originals are inaccessible.
+- [ ] Retrieve complete current offer catalogs and full-resolution logos; blocked by inaccessible original offer data. Unshown discount terms remain unspecified.

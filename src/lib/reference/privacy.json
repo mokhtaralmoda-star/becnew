@@ -1,0 +1,1430 @@
+{
+  "ar": {
+    "tag": "div",
+    "classes": "flex flex-col sm:px-4",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-5xl font-bold mb-8 sm:text-4xl",
+        "children": [
+          " سياسة الخصوصية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-3xl mb-4 sm:text-2xl",
+        "children": [
+          " سياسة خصوصيه بي كير "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-20",
+        "children": [
+          {
+            "tag": "p",
+            "classes": "mb-8",
+            "children": [
+              " تنطبق هذه الشروط والأحكام على استخدامك لخدمة بي كير "
+            ]
+          },
+          {
+            "tag": "p",
+            "classes": "",
+            "children": [
+              "اخر تحديث 01/01/2025"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " بي كير تحرص على حماية بياناتك الشخصية وذلك بتطبيق أنظمة وتعليمات هيئة التأمين وكافة الجهات الرقابية ذات الصلة. وحرصا منا على حماية بياناتك الشخصية وفهمك كيفية استخدامنا لها ومعالجتها نرجو التكرم بالاطلاع على سياسة الخصوصية بالإضافة الى الشروط والأحكام وقراءة كافة البنود الواردة فيها وفهمها، فانه بقراءتك للبنود تعد موافقاً عليها، وذا كنت تعتقد بأنك غير موافق على الشروط والاحكام وسياسة البيانات الشخصية ارجو عدم متابعة تصفح موقع بي كير. إذا كانت لديك أي استفسارات بخصوص سياسة حماية البيانات الشخصية لا تترد بالتواصل معنا. يحدد هذا الإشعار بالإضافة الى شروط الاستخدام وأي بنود أخرى يتضمنها الموقع الذي سيتم على أثرة مُعالجة أي بيانات شخصية نجمعها منك أو تقدمها لنا أنت ونقوم نحن بمعالجتها. وستتم مُعالجة بياناتك الشخصية تطبيقا لنظام حماية البيانات الشخصية الساري بالمملكة العربية السعودية. يرجى قراءة وفهم البنود الواردة أدناه في اشعار الخصوصية لفهم آلية حماية بياناتك الشخصية ومعالجتها بما يتوافق مع نظام حماية البيانات الشخصية المعمول به في المملكة العربية السعودية واي انظمة وتعاميم ذات علاقة صادرة عن هيئة التأمين والجهات الرقابية ذات العلاقة. تلتزم شركة عناية الوسيط لوساطة التأمين (بي كير) (ويشار إليها فيما بعد بــ ‘بي كير’ أو ‘نحن’ أو ‘ضمير المُتَكلِم أو المُخاطَب الذي يشير إليها’) باحترام وحماية خصوصيتك.. ينطبق إشعار الخصوصية هذا على جميع الموظفين والعملاء والزوار والجهات الخارجية وغيرهم (ويشار إليهم فيما بعد بالضمير ‘أنت’ أو بـ ‘المُستخدِم') الذين نتعامل معهم بموجب اتفاقية.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " اقرار "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " اقر بموافقتي على جمع بياناتي الشخصية ومعالجتها لدى بي كير بما يتوافق مع نظام حماية البيانات الشخصية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " نطاق السياسة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " سياسة الخصوصية هذه تنطبق فقط على موقع بي كير. قد يشتمل موقع بي كير بين الحين والآخر على روابط لمواقع أخرى نوفرها لك لتزودك بمعلومات قد تهمًك. هذا لا يعني بأننا نقر بصحة ما تحتويه هذه المواقع، فنحن لا نتحمل مسؤولية محتوى هذه المواقع، لذلك عليك أن تتأكد من حصولك على حماية ملائمة من الفيروسات وغيرها من التهديدات الأمنية أثناء تصفحك لهذه الروابط. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " ملفات تعريف الارتباط (الكوكيز) "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " إننا نستخدم ملفات تعريف الارتباط (الكوكيز) بهذا الموقع، وهي ملفات صغيرة تحتوي على معلومات نقوم بنقلها إلى القرص الصلب بجهاز الكمبيوتر الخاص بك عبر متصفح الإنترنت الخاص بك. وهذه الملفات المساعدة توفر لنا معلومات عن الأوقات التي قمت فيها بزيارة موقعنا وتحديد موقعك. هذه الملفات لا تكشف عن شخصيتك، وإنما تحدد لنا تواجد متصفحك. إن الملفات المساعدة تيسر لك دخول موقعنا واستخدام الموقع عند زيارتك لموقعنا في المستقبل، كما تمكننا من تقديم خدمة مخصصة لك. إذا رغبت في القيام بذلك فإن قسم المساعدة بمتصفحك سيقوم بتحذيرك قبل قبول الملفات المساعدة وكيفية تنقيتها أو منعها، ولكنك إذا قمت بمنع حفظ الملفات المساعدة بقرصك الصلب قد لا تتمكن من استخدام خصائص معينة بموقعنا. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " المعلومات الشخصية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " في حالة تزويدنا بمعلوماتك الشخصية عن طريق تقديم طلب على المنصة، فإنك توافق على محافظتنا وتسجيلنا واحتفاظنا بهذه المعلومات الشخصية حسب سياسة الخصوصية. ومع ذلك لا تجمع بي كير بياناتك الشخصية أكثر مما تحتاجه لتحقيق الغرض من معالجة البيانات الشخصية. تتعهد  بي كير بعدم تصوير الوثائق الرسمية الخاصة بك أو نسخها، إلاَّ عندما يكون ذلك تنفيذاً لأحكام نظام، أو عندما تطلب جهة عامة مختصة تصوير تلك الوثائق أو نسخها وفق ما تحدده اللوائح والجهات الرقابية ذات العلاقة. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " كيف يتم جمع البيانات "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " نحن نقوم بجمع معلومات عن طريق ممثل بي كير كير أو المنصة الالكترونية أو تطبيقاتنا على الهواتف الذكية عند طلب عرض سعر، سنقوم بطرح عدة أسئلة مختلفة لغرض تقديم عروض الاسعار والمقارنة بينها. كذلك يمكننا الحصول على معلوماتك منك مباشرة عند تواصلك معنا عن طريق قنوات التواصل مثل اتصالك بالهاتف المجاني لخدمة العملاء، او العناية بالعميل، أو المطالبات، أو ارسالك ايميل، أو غيرها من وسائل التواصل المعتمدة والموثوقة. يتم جمع البيانات الشخصية لأغراض محددة وصريحة ونظامية ولا تتعارض مع أي نظام قائم بالإضافة الى ان تكون البيانات التي جمعت عنك ذات صلة بالغرض الذي جمعت من أجله على أن يتم جمع الحد الأدنى منها.نحن نبذل قصارى جهدنا لضمان دقة وحداثة تلك المعلومات التي قمنا بجمعها و/أو معالجتها لذلك يرجى ابلاغنا عن أي تغيير يحصل لمعلومات ليتم تحديثها مباشرة. كذلك قد نجمع بياناتك الشخصية من مصادر خارجية مختلفة، عند طريق سحب معلوماتك من القنوات الحكومية مثل أبشر أو علم أو نجم للحصول على معلومات تخصك، كما يمكن الحصول عليها مباشرة من صاحب العمل الخاص بك والذي تقدم بطلب تأمين لك تتعهد بي كير حين تصحيح أو تحديث أو إكمال نقص في بياناتك الشخصية لديها أن تقوم بإبلاغ الجهات الأخرى التي تم نقل البيانات الشخصية إليها لتقوم هذه الجهات بدورها بعكس هذه التغيرات على البيانات الشخصية لديها.نأكد  لك أنه لن يتم الاطلاع على معلوماتك التي قمنا بجمعها ومعالجتها الا عن طريق الأشخاص المُصرح لهم بذلك، ويتوجب عليهم المحافظة على سرية المعلومات التي تم اطلاعهم عليها. كما انه لن يتم تخزين معلوماتك الخاصة (بيانات بطاقة الدفع، الأرقام السرية، المالية، وغيرها.) في الحاسوب الخادم الخاص بنا بعد إتمام المعاملة.   "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " استخدام المعلومات الشخصية لأغراض تسويقية أو بحثية أو إحصائية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " قد نستخدم المعلومات التي تقدمها لنا أو نجمعها عنك (من غير المعلومات الحساسة)، أو قد يستخدمها وكلائنا أو مزودي الخدمات الخاصين بنا أو شركات يتم اختيارها بعناية، وذلك لأغراض تأهيل الموظفين و/ أو اجراء اختبار لأنظمتنا أو اعداد الاحصائيات أو بغرض اعداد البحوث أو تحليلات ادارية أو لإعلامك بمنتجات أو خدمات أخرى قد تهمك وذلك بدون التطرق لاي معلومة بشأنها تحديد هويتك أو التعرف عليك. كما أننا نستخدم معلوماتك الشخصية للتواصل معك وإظهارها في الملف الشخصي ورسالة الترحيب. وقد نرسل لك بعض الرسائل الترحيبية أو التوعوية بين الحين والآخر.قد نرسل أيضا التذكير المتعلق بالفواتير والمعلومات ذات الصلة بعقود التأمين الخاصة بك بالإضافة إلى مواد العروض والمنتجات، وربما نرسل لك من حين لآخر استبيانات المنتجات أو الخدمات والرسائل الترويجية البريدية لإعلامك بالمنتجات أو الخدمات الأخرى المتوفرة حالياً لدى بي كير. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " في حال كنت لا ترغب بذلك فبإمكانك التواصل معنا وابلاغنا بعدم رغبتك بذلك  مع الإشارة الى انه سنحتفظ بالمعلومات الخاصة بك لفترة معقولة أو حسبما تتطلبه النظم السارية بالمملكة العربية السعودية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " قد نحتاج (بعد اخطارك) إلى تسجيل المكالمات الهاتفية التي قد تجريها معنا عند طريق قنوات التواصل بما في ذلك اتصال الهاتفي أو الرسائل أو رسائل البريد الإلكتروني وأي أنواع أخرى من التواصل. يمكن استخدام هذه التسجيلات للتحقق من تعليماتك إلينا ولتحسين جودة الخدمة وتطوير وتدريب الموظفين. عند موافقتك فإننا سنجعل المعلومات الخاصة بك متاحة لمنشآت أخرى مرموقة نعتقد أن منتجاتها أو خدماتها قد تهمك (من غير المعلومات الحساسة) شريطة تعهد المنشآت بعدم افشاء معلومات لأي أطراف اخرى. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " كيفية طلب المعلومات "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " يمكنك طلب المعلومات الخاصة بك الموجودة في سجلاتك المحفوظة لدينا عن طريق تعبئة نموذج طلب (هنا) وارساله الينا عن طريق البريد الالكتروني المسجل لدينا. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " ماهي المعلومات التي نجمعها "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " نقوم بجمع أنواع مختلفة من المعلومات عنك كما هو موضح أدناه. في بعض الحالات، قد لا تكون المعلومات شخصية في حد ذاتها، ولكن عندما تكون مرتبطة بمعلومات أخرى يمكن من خلالها تحديد هويتك، فإننا نتعامل مع هذه المعلومات على أساس أنها معلومات شخصية، وتشمل ما يلي: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - المعلومات المالية مثل الحساب البنكي وتفاصيل بطاقة الدفع. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - معلومات الاتصال وتتضمن العنوان الوطني وعنوان البريد الإلكتروني وأرقام الهواتف. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - المعلومات المالية مثل الحساب البنكي وتفاصيل بطاقة الدفع. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - معلومات المعاملات وتتضمن التفاصيل المدفوعات منك وإليك وتفاصيل أخرى عن الخدمات التي اشتريتها منا والتاريخ الطبي / السجل السابق للتأمينات التي أجريتها مع شركات التأمين الأخرى "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - المعلومات الفنية وتتضمن عنوان بروتوكول الإنترنت (IP) "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - وبيانات تسجيل الدخول إلى موقع الويب / التطبيق الخاص بنا، ونوع المتصفح وإصداره، وإعدادات المنطقة الزمنية والموقع، ونظام التشغيل والنظام الأساسي والتقنيات الأخرى على الأجهزة التي تستخدمها للوصول إلى هذا الموقع  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - معلومات الملف التعريفي الشخصي مثل اسم المستخدم وكلمة المرور للدخول على منصة بي كير. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - معلومات التسويق والاتصالات وتتضمن موافقة في تلقي مواد التسويق من بي كير. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - قد نجمع أيضاً بعض البيانات الشخصية الحساسة عنك، على سبيل المثال بعض البيانات المطلوبة لمُعالجة مطالبات التأمين، مثل التقارير الطبية وشهادات الوفاة وتاريخ المطالبات الطبية والوضع الصحي. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " - بالإضافة إلى ذلك، يمكننا الحصول على معلومات حول سجلك الجنائي أو تاريخ التقاضي المدني في سياق عمليات مكافحة الاحتيال واكتشافه والتحقيق فيه. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " حالات يستثنى فيها اخذ الموافقة جمع المعلومات "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " في الحالات التالية يتم جمع معلوماتك بدون أخذ موافقتك: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - تخدم المعالجة مصالحك الفعلية لكن التواصل معك مستحيل أو صعب. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - تتم المعالجة وفقًا لنظام آخر أو في تنفيذ اتفاقية سابقة تكون انت طرفًا فيها. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - المعالجة مطلوبة لأغراض أمنية أو لتلبية المتطلبات القضائية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - تكون المعالجة ضرورية لغرض مصلحة مشروعة، بشرط عدم معالجة أي بيانات حساسة. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " لا يجوز لبي كير جمع البيانات الشخصية إلا من صاحبها مباشرةً، ولا تجوز مُعالجة تلك البيانات إلا لتحقيق الغرض الذي جُمعت من أجله. ومع ذلك، يجوز لبي كير جمع بياناتك الشخصية من غير صاحبها مباشرةً، أو مُعالجتها لغرض آخر غير الذي جمعت من أجله أو الافصاح عنها، وذلك في الأحوال التالية: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 1- إذا وافق صاحب البيانات الشخصية على ذلك، وفقاً لأحكام النظام. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 2- إذا كانت البيانات الشخصية متاحة للعموم، أو جرى جمعها من مصدر متاح للعموم.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 3- إذا كان جمع البيانات الشخصية أو معالجتها مطلوباً لأغراض المصلحة العامة، أو لأغراض أمنية أو لتنفيذ نظام آخر أو لاستيفاء مُتطلبات قضائية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 4- إذا كان التقيد بهذا الحظر قد يُلحق ضرراً بصاحب البيانات الشخصية أو يؤثر على مصالحه الحيوية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 5- إذا كان جمع البيانات الشخصية أو معالجتها ضروريا لحماية الصحة العامة، أو السلامة العامة، أو حماية حياة فرد أو أفراد معينين أو حماية صحتهم إذا كانت البيانات الشخصية لن تُسجل أو تُحفظ في صيغة تجعل من الممكن تحديد هوية صاحبها ومعرفته بصورة مباشرة أو غير مباشرة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 6- إذا كان جمع البيانات الشخصية أو معالجتها ضرورياً لتحقيق مصالح مشروعة لبي كير، ما لم يخل ذلك بحقوق صاحب البيانات الشخصية أو يتعارض مع مصالحه مالم تكن تلك البيانات حساسة. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " تتعهد بي كير ألا تفصح عن بياناتك الشخصية في الأحوال المنصوص عليها في الفقرات (1) و(2) و(5) و(6) من الفقرة السابقة، متى اتصف الإفصاح بأيٍّ مما يأتي: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - أنه يمثل خطراً على الأمن، أو يسيء إلى سمعة المملكة، أو يتعارض مع مصالحها. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - أنه يؤثر على علاقات المملكة مع دولة أخرى. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - أنه يمنع من كشف جريمة أو يمس حقوق متهم في الحصول على محاكمة عادلة أو يؤثر في سلامة إجراءات جنائية قائمة. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - أنه يعرض سلامة فرد أو أفراد للخطر. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - أنه يترتب عليه انتهاك خصوصية فرد آخر غير صاحب البيانات الشخصية وفق ما تحدده اللوائح. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - أنه يتعارض مع مصلحة ناقص أو عديم للأهلية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " -أنه ينطوي عليه إخلال بالتزام أو إجراء أو حكم قضائي. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " - أنه يكشف عن مصدر سري لمعلومات تحتم المصلحة العامة عدم الكشف عنه. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " مشاركة بيانات الشخصية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " إننا لا نبيع أو نتاجر، أو ننقل بأي صورة كانت لأطراف خارجية، بياناتك الشخصية الخاصة بك. الا في حال حصلنا على إذن منك بذلك؛ أو طُلب منا أو سُمح لنا ذلك بموجب القانون، أو إلى الشركات الأخرى المصرحة من قبل الجهات الرسمية التي تقدم خدمة لنا أو لك؛ أو الأطراف الخارجية المتعاقدة معنا لإدارة الموقع الإلكتروني ، أو في إدارة أعمالنا، أو في خدمتك طالما وافقت تلك الأطراف على الحفاظ على سرية هذه المعلومات مثل إدارة شئون المنتجات والخدمات التي نقدمها لك في حالة منتجات التأمين، يشتمل ذلك على أغراض ضمان التأمين و دراسة أي طلبات قد تقدمها لشراء المنتجات والمساعدة في اتخاذ القرارات المتعلقة بالائتمان الخاصة بك حيثما يكون ملائمًا و المساعدة في اتخاذ القرارات بخصوص طلبات التأمين، المنتجات الأخرى وأي مطالبات تقوم أنت بتقديمها، و/أو أفراد أسرتك، و/او آخرين ممن لهم علاقة بطلبات التأمين والمطالبات الخاصة بك. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " قد نرسل المعلومات المحتفظ بها لدينا في منتج خدمة بي كير، للمعالجة إلى شركات أخرى (أو شركات تعمل بناءً على تعليماتها). ويُعد إدخالك لتفاصيلك في موقعنا موافقة منك على هذا الاستخدام لمعلوماتك الشخصية. لن يتم إفشاء معلوماتك إلى طرف آخر خارج بي كير، إلا إذا وافق على الحفاظ على سرية معلوماتك الشخصية واستخدامها فقط للغرض المحدد الذي جمعت من أجله. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " أيضاً قد نظهر معلوماتك متى رأينا ذلك الإظهار ملائماً من أجل الالتزام بالقانون، أو لتفعيل سياسات موقعنا الإلكتروني. أو لحماية حقوقنا، أو ممتلكاتنا أو سلامتنا، أو حقوق الغير أو ممتلكاتهم أو سلامتهم. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " سنحتاج إلى مشاركة بعض بياناتك الشخصية مع بعض الجهات الخارجية، على سبيل المثال شركات التأمين المصرح لهم من قبل الجهات الرسمية. والتي تقدم عروض أسعار لك من خلال موقعنا أو تطبيقنا بإجراء فحوصات مقابل قواعد بيانات مختلفة لتقييم أهليتك للحصول على عرض أسعار ويتخذون قرارات بشأنك بوسائل مؤتمنة بالكامل. هؤلاء الشركاء مسؤولون عن كيفية معالجتهم لبياناتك الشخصية وعليك الاطلاع على سياساتهم في حال رغبتك بذلك من خلال مواقعهم الالكترونية المتاحة على المحركات الالكترونية العامة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " يوافق العميل على قيام BCare باستخدام وإظهار اسم صاحب الحساب، كليًا أو جزئيًا، بالقدر اللازم لإتمام المعاملات، والتحقق من هوية المستفيد، والامتثال للمتطلبات النظامية والتنظيمية، وتقديم الخدمات ذات الصلة، وذلك وفقًا لسياسة الخصوصية المعتمدة لدى الشركة. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " حقوقك – الحقوق القانونية المتاحة للمساعدة في ادارة بياناتك "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - لديك الحق في معرفة بياناتك الشخصية المحفوظة لدينا، وطريقة جمعها والاغراض المحددة من الجمع، وما إذا كانت هذه البيانات التي تم جمعها ستتم معالجتها أو ستتم مشاركتها أو بيعها لجهات أخرى عن طريق تعبئة نموذج طلب  ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(اضغط هنا)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - لديك الحق في الوصول إلى بياناتك الشخصية المتوافرة لدى بي كير، ويشمل ذلك الاطلاع عليها، والحصول على نسخة منها بصيغة واضحة ومطابقة لمضمون السجلات وبلا مقابل مادي عن طريق تعبئة نموذج طلب  ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(اضغط هنا)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " يحق لك طلب تصحيح بيانات المحفوظة لدينا إذا كانت غير كاملة أو غير دقيقة أو قديمة (غير محدثـة) عن طريق تعبئة نموذج طلب  ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(اضغط هنا)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - يحق طلب سحب موافقة جمع ومعالجة البينات عن طريق تعبئة نموذج طلب  ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(اضغط هنا)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - يحق لك طلب إتلاف بياناتك الشخصية المحفوظ لدينا عن طريق تعبئة نموذج طلب  ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(اضغط هنا)"
+            ]
+          },
+          " ومع ذلك، يجوز لبي كير الاحتفاظ بتلك البيانات بعد انتهاء الغرض من جمعها إذا تمت إزالة كل ما يؤدي إلى معرفتك على وجه التحديد وفق الضوابط التي تحددها اللوائح السارية بالمملكة العربية السعودية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " - في حال رغبتك في ممارسة أي من حقوقك المتعلقة بالخصوصية، يُرجى تعبئة النموذج ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(اضغط هنا)"
+            ]
+          },
+          " وإرساله على البريد الإلكتروني التالي: ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              " privacy@bcare.com.sa "
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " حق بي كير في الاحتفاظ بالبيانات الشخصية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " يحق لبي كير الاحتفاظ بالبيانات الشخصية حتى بعد انتهاء الغرض من جمعها فقط في الحالتين الآتيتين:  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - إذا توافر مسوغ نظامي يوجب الاحتفاظ بها مدة مُحددة، وفي هذه الحالة يُجرى إتلافها بعد انتهاء هذه المدة أو انتهاء الغرض من جمعها، أيهما أطول. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - إذا كانت البيانات الشخصية متصلة اتصالاً وثيقاً بقضية منظورة أمام جهة قضائية وكان الاحتفاظ بها مطلوباً لهذا الغرض، وفي هذه الحالة يُجرى إتلافها بعد استكمال الإجراءات القضائية الخاصة بالقضية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " على أية حال، يحق لك معرفة هوية من يجمع البيانات الشخصية عنك وعنوان مرجعه عند الاقتضاء، ما لم يكن جمعها لأغراض أمنية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " الدفع عبر الإنترنت "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " إذا كنت قد اخترت إجراء الدفع عبر الإنترنت مقابل وثيقة التأمين الخاصة بك عن طريق بطاقة دفع، سوف يطلب منك إدخال تفاصيل بطاقة الدفع الخاصة بك على الانترنت، وسوف يتم الحصول على موافقة لخصم المبلغ من بطاقتك. يتم تشفير المعلومات الشخصية التي تقوم بإدخالها باستخدام بروتوكول طبقة المقابس الآمنة (SSL).وما يعنيه ذلك هو أن جميع المعلومات الخاصة بك يتم إرسالها من خلال ‘مسار’ آمن بينك وبين موقع بي كير مما يجعلها غير مقروءة عندما يتم نقلها "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " التعامل مع الاخرين "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " إذا قام زوجك/زوجتك أو أحد أفراد اسرتك بالاتصال بنا نيابة عنك، لن يكون بمقدورنا الإجابة على استفساراتهم وذلك تطبيقاً لنظام حماية البيانات الشخصية حتى اننا لن نكشف أو نصرح عن أي أرقام خاصة ببطاقتك الدفع أو اي معلومات اخرى لأي شخص بخلاف صاحب الوثيقة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " الاحتفاظ بالبيانات الشخصية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " سوف يتم الاحتفاظ ببياناتك الشخصية فقط للمدة التي تحددها الجهات التنظيمية والرقابية للأغراض المنصوص عليها في إشعار الخصوصية هذا. وسنحتفظ بمعلوماتك ونستخدمها فقط للتقيد بالتزاماتنا القانونية، وإنفاذ اتفاقياتنا وسياساتنا القانونية التي تخضع لتعليمات من قبل الجهات الرقابية والتنظيمية مثل هيئة التأمين والهيئة السعودية للذكاء الاصطناعي واي جهة تنظيمية اخرى ذات علاقة. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " حماية البيانات "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " تستخدم بي كير تدابير تقنية وتنظيمية كافية لحماية البيانات الشخصية والتأكد من سريتها وتوافرها وسلامتها عند نقلها والاحتفاظ بها وأن جمع والحصول على هذه البيانات واستخدامها هو لأغراض محددة وصريحة ونظامية.تضمن بي كير أن طُرق جمع البيانات الشخصية ووسائلها لا يتعارض مع أي حكم مقرر نظاماً، كما تضمن ان طرق جمع ومعالجة البيانات الشخصية مباشرة وواضحة وآمنة في كل الأوقات، وخالية من أساليب الخداع أو التضليل أو الابتزاز، تضمن بي كير أن يكون جمعها للبيانات الشخصية ملائماً ومقصوراً على الحد الأدنى اللازم لتحقيق الغرض من جمعها.تقر بي كير انه إذا كانت البيانات الشخصية التي تجمع لم تعد ضرورية لتحقيق الغرض من جمعها، فستقوم بالتوقف عن جمعها، وإتلاف ما سبق أن جمعته منها دون تأخير حسب النظام الساري في المملكة العربية السعودية.تقر بي كير أن تحتفظ بمعلوماتك السرية وتحافظ عليها. كما تتعهد بأن تحصر إمكانية الاطلاع على معلوماتك السرية لعدد محدود من الموظفين والأطراف الأخرى إذا اقتضت الحاجة لذلك، وفي حال الحاجة لاطلاعهم على معلوماتك يتوجب عليهم توقيع اتفاقية وتعهد بالسرية وعدم إفشاء المعلومات. تضمن لك بي كير أن لا تقوم باستخدام معلوماتك السرية أو نشرها أو نسخها أو الإفصاح عنها أو السماح للآخرين باستخدامها أو الإضرار بك إلا بموافقة كتابية منك، كما يجب على بي كير أن تعيد لك أي أو جميع السجلات والملاحظات وغيرها من المواد المكتوبة أو المطبوعة أو الملموسة الموجودة في حيازتها والتي لها علاقة بمعلوماتك السرية فوراً إذا قمت بطلبها كتابياً عن طريق نموذج الطلبات ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(اضغط هنا)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " قد تسفر عمليات التحسين في التكنولوجيا عن حدوث تغييرات في طريقة عرض وتسجيل واستخدام المعلومات الشخصية الخاصة بك. إذا اعتقدنا بأن التغييرات يمكن أن تكون مضرة لك، فسنقوم بإبلاغك، عن طريق البريد الإلكتروني والرسائل النصية [ تطبيقاً للقواعد المنظمة لأعمال وساطة التأمين الإلكتروني ] وبإرسال إشعار بالتعديل في الموقع، وإذا استخدمت الموقع بعد هذا الإشعار، فسنفترض أنك وافقت على تلك التغييرات تلقائيا من دون الحاجة لتقديم اشعار خطي منك بذلك "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " أمن المعلومات "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " على الرغم من أننا نتخذ خطوات معقولة لحماية المعلومات الشخصية التي نوفرها عبر موقع بي كير، إلا أنه لا يوجد نظام آمن أو خال من الأخطاء بنسبة 100٪. لذلك، لأننا لا نقر ولا نضمن أمن أو دقة المعلومات التي نجمعها أو نقدمها عبر موقعنا كما انك تقر بمعرفتك وموافقتك على ذلك من دون ادنى مسؤولية علينا. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " سياسة الحسابات الغير نشطة  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " إنّ الحساب غير النشط على بي كير هو حساب لم يتم استخدامه خلال فترة سنتين. تحتفظ بي كير بالحق في حذف أي حساب غير نشط بالإضافة إلى نشاطه وبياناته إذا لم تستخدم منتجات بي كير لمدة سنتين على الأقل "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " حق النشر والعلامة التجارية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " تمتلك بي كير حق العلامات التجارية والشعارات والتصاميم والرسومات الإيضاحية أو البيانية الموجودة في هذا الموقع ويحظر إعادة إنتاج او استخدام اي منها بدون موافقة كتابيه مسبقة من بي كير علما بأن أي عمل خلاف ذلك يحملك مسؤولية قانونية للاستخدام الغير المرخص الذي قد يؤدي إلى رفع دعاوى قضائية و/أو جريمة جنائية لمنافاته شروط واحكام هذا الموقع. كما ان سياسة بي كير تمنع منعاً باتاً استخدام موقع بي كير إلا للأغراض المصرح القيام بها من خلال المنصة. وان موقع بي كير هو للاستخدام الشخصي فقط وهو حصري للفرد صاحب الشأن وغير قابل للتحويل الى أي طرف ثالث. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " القانون الواجب تطبيقه والمحاكم المختصة "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " تخضع شروط الاستخدام هذه وتفسر وفقاً لقانون المملكة العربية السعودية. تخضع المنازعات الناشئة ذات العلاقة بشروط الاستخدام للاختصاص القضائي الحصري لمحاكم المملكة العربية السعودية. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " التغيير أو التعديل على سياسة الخصوصية "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " يجوز لنا تغيير أو تعديل سياسة الخصوصية هذه في أي وقت دون إشعار مسبق، وتعتبر أنت مسؤولا عن الاطلاع على كل ما هو جديد وإن استمرار استخدامك لهذا الموقع يشكل موافقة منك على أي تغييرات في هذا الإشعار.تظل أحكام وشروط السرية سارية المفعول حتي بعد انتهاء مدة اتفاقيتك معنا. "
+        ]
+      }
+    ]
+  },
+  "en": {
+    "tag": "div",
+    "classes": "flex flex-col sm:px-4",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-5xl font-bold mb-8 sm:text-4xl",
+        "children": [
+          " Privacy Policy "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-3xl mb-4 sm:text-2xl",
+        "children": [
+          " BCare Privacy Policy "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-20",
+        "children": [
+          {
+            "tag": "p",
+            "classes": "mb-8",
+            "children": [
+              " these terms and conditions apply to your use of BCare service. "
+            ]
+          },
+          {
+            "tag": "p",
+            "classes": "",
+            "children": [
+              "Last update 01/01/2025"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " BCare is keen to protect your personal data by applying the regulations and instructions of the Insurance Authority and all relevant regulatory authorities. In order to protect your personal data and understand how we use and process it, please kindly review the privacy policy in addition to the terms and conditions and read and understand all the terms contained therein, as by reading the terms you agree to them, and if you think that you do not agree to the terms and conditions and the personal data policy, please do not continue browsing BCare website. If you have any questions regarding the personal data protection policy, do not hesitate to contact us. This notice sets out in addition to the Terms of Use and any other terms contained in the Site which any personal data we collect from you or that you provide to us and we process will be processed. Your personal data will be processed in accordance with the personal data protection regime in force in the Kingdom of Saudi Arabia. Please read and understand the items below in the Privacy Policy to understand the mechanism of protecting and processing your personal data in accordance with the Personal Data Protection Law in the Kingdom of Saudi Arabia and any relevant regulations and circulars issued by the Insurance Authority and the relevant regulatory authorities. BCare Insurance Brokers (hereinafter referred to as 'BCare', 'we', 'us' or 'the person referring to it') is committed to respecting and protecting your privacy. This Privacy Policy applies to all employees, customers, visitors, third parties, and others (hereinafter referred to as 'you' or 'User') with whom we deal under an agreement. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Declaration "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " I acknowledge that I consent to the collecting and processing of my personal data by BCare in accordance with the Personal Data Protection Law. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Policy Scope "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " This Privacy Policy applies only to BCare website. From time to time, BCare website may include links to other websites that we provide to you to provide you with information that may be of interest to you. This does not mean that we acknowledge the correctness of what these sites contain, as we are not responsible for the content of these sites, so you need to make sure that you are properly protected from viruses and other security threats while browsing these links. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Cookies "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " We use cookies on this website, which are small files containing information that we transfer to your computer's hard drive via your Internet browser. These cookies provide us with information about the times you visited our site and determine your location. These cookies do not reveal your identity, but rather determine the presence of your browser. Assistive cookies make it easier for you to access our site and use the site when you visit our site in the future and enable us to provide you with a personalized service. If you wish to do so, the help section of your browser will warn you before accepting the help files and how to purify or prevent them, but if you prevent the saving of auxiliary files to your hard drive, you may not be able to use certain features of our site. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Personal Information Privacy "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          "  If you provide us with your personal information by submitting a request on the Platform, you agree to our maintenance, registration, and retention of such personal information in accordance with the Privacy Policy. However, BCare does not collect more than what is needed to achieve the purpose of processing personal data. BCare undertakes not to photocopy or copy your official documents, except when this is in implementation of the provisions of the Law, or when a competent public authority requests to photocopy or copy such documents as determined by the relevant regulations and regulatory authorities. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " How data is collected "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " We collect information either through BCare representatives, or the online platform, or our mobile applications when requesting a quotation, we will ask several different questions for the purpose of submitting and comparing quotations. We can also obtain your information from you directly when you communicate with us through communication channels such as calling the toll-free customer service phone, customer care, claims, sending you an email, or other approved and reliable means of communication. Personal data is collected for specific, explicit, and statutory purposes and does not conflict with any existing system, in addition to the data collected about you is relevant to the purpose for which it was collected and the minimum amount of it is collected. We do our best to ensure that the information we have collected and/or processed is accurate and up to date so please inform us of any change to information to be updated immediately. We may also collect your personal data from various external sources, by withdrawing your information from government channels such as Absher, Elm, or Najm to obtain information about you, and it can also be obtained directly from your employer who has applied for insurance for you. By correcting, updating, or completing a deficiency in your personal data, BCare undertakes to inform third parties to whom the personal data has been transferred, who in turn reflect such changes to their personal data. We assure you that the information we have collected and processed will only be viewed by authorized persons, and they must maintain the confidentiality of the information they have been traced. Your private information (payment card details, PINs, financials, etc.) will not be stored on our server after completing the transaction. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Use of personal information for marketing, research, or statistical purposes "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " We may use or collect information you provide to us about you (other than sensitive information), or our agents, service providers or carefully selected companies may use it for the purposes of employee onboarding and/or testing of our systems or statistics, or for research or management analysis, or to inform you about other products or services that may be of interest to you without identifying you. We also use your personal information to communicate with you and show it in your profile and welcome message. We may send you some welcome or awareness messages from time to time. We may also send reminders regarding invoices and information related to your insurance contracts as well as offer materials and products, and we may occasionally send you product or service surveys and promotional mailings to inform you of other products or services currently available at BCare. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " If you do not wish to do so, you can contact us and inform us that you do not wish to do so, noting that we will keep your information for a reasonable period or as required by the regulations in force in the Kingdom of Saudi Arabia. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " We may need (after notifying you) to record telephone calls you may make with us via communication channels including telephone calls, letters, emails, and any other types of communication. These recordings may be used to verify your instructions to us and to improve the quality of service and to develop and train employees. Upon your consent, we will make your information available to other reputable entities whose products or services we believe may be of interest to you (other than sensitive information) provided that the entities undertake not to disclose information to any third parties. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " How to request information "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " You can request your information in your records kept with us by filling out an application form (here) and sending it to us by email registered with us "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " What information we collect "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " We collect different types of information about you as described below. In some cases, the information may not be personal, but when it is linked to other information from which you can be identified, we treat this information as personal information, and include the following: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - Financial information such as bank account and payment card details.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - Contact information including national address, email address, and phone numbers. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - Financial information such as bank account and payment card details.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - Transaction information including details of payments to and from you and other details of services you have purchased from us and previous medical history/record of insurance you have made with other insurance companies  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - Technical information including Internet Protocol (IP) address "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - login data for our website/application, browser type and version, time zone and location settings, operating system, platform and other technologies on the devices you use to access this website "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - Profile information such as username and password to access BCare platform. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - Marketing and communications information including consent to receive marketing materials from BCare.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - We may also collect certain sensitive personal data about you, for example, some data required to process insurance claims, such as medical reports, death certificates, medical claims history, and health status.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " - In addition, we can obtain information about your criminal record or civil litigation history in the context of fraud control, detection, and investigation operations. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Cases where consent is excluded Information collection "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " In the following cases, your information is collected without your consent: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - The process serves your actual interests but communication with you is impossible or difficult. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - The processing is carried out according to another regulation or in the implementation of a previous agreement in which you are involved it "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - Processing is required for security purposes or to meet judicial requirements. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - The processing is necessary for the purpose of a legitimate interest, provided that no sensitive data is processed. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " BCare may only collect personal data directly from the Data owner her/himself and may only process such data to achieve the purpose for which it was collected. However, BCare may collect or disclose  the data from a person other than the owner directly, in the following causes: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  1. If the owner of the personal data agrees to do so, in accordance with the provisions of the Law. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  2. If the personal data is publicly available or collected from a publicly available source.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 3. If the collecting or processing of personal data is required for purposes of public interest, security purposes, the implementation of another system or the fulfillment of judicial requirements.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 4. If compliance with this prohibition may harm the subject of personal data or affect his vital interests.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " 5. If the collecting or processing of personal data is necessary to protect public health or safety or to protect the life or health of a particular individual or individuals if the personal data will not be recorded or kept in a form that makes it possible to identify and know the owner directly or indirectly. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  6. If the collecting or processing of personal insensitive data is necessary to achieve the legitimate interests of BCare unless this violates the rights of the personal data owner or conflicts with his interests. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " BCare agreed not to disclose your personal data in the cases provided for in paragraphs (1), (2), (5), and (6) of the preceding paragraph, where the disclosure is characterized by any of the following: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - It represents a threat to the Security of Saudi Arabia's reputation or conflicts with its interests. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - It affects Saudia Arabia's relations with other countries.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - It prevents the detection of a crime, infringes on the rights of an accused to a fair trial, or affects the integrity of existing criminal proceedings.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - It affects the safety of an individual or group. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - It entails a violation of the privacy of an individual other than the Data owner as stated by the regulations. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - It conflicts with the interest of the imperfect or incapacitated. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  –It involves a breach of an obligation, procedure, or judicial ruling. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " - It reveals a confidential source of information that is in the public interest not to disclose. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Sharing of personal data "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " We do not sell, trade, or transfer your personal data to third parties. Unless we have your permission to do so, or we are requested or permitted to do so by law, or to other companies authorized by official authorities that provide a service to us or you; or third parties contracting with us to administer the website, in the conduct of our business, or in your service as long as those parties agree to maintain the confidentiality of such information, such as managing the affairs of the products and services we provide to you in the case of insurance products, including for warranty purposes. Insurance and study any requests you may make for the purchase of products and assist in making decisions regarding your credit where appropriate and assist in making decisions regarding insurance Policies, other products, and any claims made by you, your family members, and/or others related to your insurance policies and claims.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " We may send the information held with us in BCare, for processing, to other companies (or companies acting on their instructions). By entering your details on our site, you consent to the use of your personal information. Your information will not be disclosed to a third party outside of BCare, unless they agree to keep your personal information confidential and use it only for the specific purpose for which it was collected. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " We may also disclose your information whenever we deem it appropriate to comply with the law, enforce our website policies, or protect our rights, property, or safety, or the rights, property, or safety of others. We may need to share some of your personal data with certain third parties, for example, insurance companies authorized by the Insurance Authority. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " They bid you through our website or App by conducting checks against different databases to assess your eligibility for quotations and make decisions about you by fully automated means. These partners are responsible for how they process your personal data and you should review their policies if you wish to do so through their websites available on public electronic engines. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " The Customer agrees that BCare may use and disclose the account holder’s name, in whole or in part, to the extent necessary to complete transactions, verify the beneficiary’s identity, comply with applicable legal and regulatory requirements, and provide related services, in accordance with the Company’s Privacy Policy. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Your rights - legal rights available to help manage your data "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - You have the right to know what of your personal data is kept with us, how it is collected and the specific purposes of collection, and whether this collected data will be processed shared, or sold to third parties by filling out an application form ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(Click here)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - You have the right to access your personal data available with BCare, including viewing it, and obtaining a copy of it in a clear format and identical to the content of the records we have free of charge by filling out an application form ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(Click here)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - You have the right to correct or complete, or update your data saved with us by filling out a request form ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(Click here)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - You have the right to withdraw of consent to collect and process your Data by filling out an application form ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(Click here)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - You have the right to request the destruction of your personal data saved with us by filling out a request form ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(Click here)"
+            ]
+          },
+          " However, BCare may retain the data after the end of its collecting purpose if everything that leads to identifying you was removed in accordance with the controls set out by the regulations in Saudi Arabia. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " - If you would like to exercise any of your privacy rights, please fill out the form ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(Click here)"
+            ]
+          },
+          " and send it to the following email address: ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              " privacy@bcare.com.sa "
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " BCare right to retain personal data "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " BCare has the right to retain personal data even after the end of the purpose of its collection only in the following two cases: "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          "  - If there is a legal justification that requires it to be kept for a specific period, in this case, it is destroyed after the expiry of this period or the end of the purpose of its collection, whichever is longer.  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " - If the personal data is closely related to a case pending with judicial authority and the retention was required for this purpose, in this case, it should be destroyed after the completion of the judicial proceedings of the case  "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " Anyway, you have the right to know who collects personal data and her/his reference address, unless the collecting was for Security purposes. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Online Payment "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          "  If you have chosen to make an online payment for your insurance policy by payment card, you will be asked to enter your payment card details online, and your approval will be obtained to deduct the amount from your card. Personal information you enter is encrypted using the Secure Socket Layer (SSL) protocol, however, all your information is sent through a secure 'pathway' between you and BCare website making it illegible when it is transferred. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Dealing with others "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          "  If your family members contact us on your behalf, we will not be able to answer their queries in accordance with the Personal Data Privacy Law, so we will not disclose any payment card numbers or any other information to anyone other than the policyholder. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Retention of Personal Data "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " Your personal data will only be retained for the period set by the regulatory and supervisory authorities for the purposes set out in this Privacy Policy. We will retain and use your information only to comply with our legal obligations, and to enforce our legal agreements and policies that are subject to instructions by regulatory authorities such as the Insurance Authority, the Saudi Authority for Artificial Intelligence, and any other relevant Regulatory Authorities. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Data Protection "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " BCare uses adequate technical and organizational measures to protect personal data and ensure its confidentiality, availability, and integrity when transferring and retaining it. The collecting and use of this data is for specific, explicit purposes. BCare warrants that the methods and means of collecting personal data do not conflict with any legally prescribed provision and that the methods of collecting and processing personal data are direct, clear, and secure at all times, and free from deception, or extortion, BCare ensures that the collection of personal data is appropriate and limited to the minimum necessary to achieve the purpose of its collecting. BCare agreed that if the personal data collected is no longer necessary it will stop collecting it and destroy what it has previously collected from it without delay in accordance with Saudi Arabia regulations. BCare agreed to maintain limited access to your Data to a specific number of employees and third parties if necessary, and if they will access your Data, they must sign an NDA agreement. BCare warrants that we will not use, publish, copy, disclose, or allow others to use your Data without your written consent. BCare shall return to you any or all records, notes and other written, printed or tangible materials or documents in its possession ton immediately if you request them ",
+          {
+            "tag": "span",
+            "classes": "text-blue-600",
+            "children": [
+              "(Click here)"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " Improvements in technology may change the way Data are displayed, recorded, and used. If we believe that the changes could be harmful to you, we will notify you, by e-mail and text message. by sending notice of modification of the site, and if you use the site after such notice, we assume that you have automatically agreed to those changes without the need to provide written notice from you to do so. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Information Security "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " Although we take reasonable steps to protect your Data through BCare website, we assume that no system is 100% secure or error-free. Therefore, because we do not represent or warrant the security or accuracy of the information we collect or provide through our site, and you acknowledge of that consent without any responsibility to us. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Inactive Accounts Policy "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " An inactive account on BCare is an account that has not been used during a two-year period. BCare reserves the right to delete any inactive account as well as its activity and data if you do not use BCare products for at least two years. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Copyright and Trademark "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " BCare owns the right to trademarks, logos, designs, illustrations or graphics on this site and it is prohibited to reproduce or use any of them without prior written consent from BCare, noted that any action to the contrary holds you legally responsible for unlicensed use that may lead to lawsuits and/or a criminal offense for violating the terms and conditions of this site. However, BCare strictly prohibits the use of BCare website except for the purposes authorized to be carried out through the platform. BCare website is for personal use only and is exclusive to the individual concerned and is not transferable to any third party. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Applicable Law and Competent Courts "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-12",
+        "children": [
+          " These Terms of Use shall be governed by and construed in accordance with the law of the Kingdom of Saudi Arabia. Disputes arising in connection with the Terms of Use shall be subject to the exclusive jurisdiction of the courts of the Kingdom of Saudi Arabia. "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-3xl mb-4",
+        "children": [
+          " Change or modification to the Privacy Policy "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray dark:text-dark-text-color text-xs mb-4",
+        "children": [
+          " We may change or amend this Privacy Policy at any time without prior notice, and you are responsible for keeping up to date with all that is new, and your continued use of this website constitutes your acceptance of any changes to this notice. The terms and conditions of confidentiality shall remain in effect even after the expiration of your agreement with us. "
+        ]
+      }
+    ]
+  }
+}

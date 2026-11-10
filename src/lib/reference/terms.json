@@ -1,0 +1,1157 @@
+{
+  "ar": {
+    "tag": "div",
+    "classes": "flex flex-col dark:bg-dark-primary sm:px-4",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-5xl font-bold mb-8 sm:text-4xl",
+        "children": [
+          " الشروط والأحكام​ "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray text-3xl mb-4 dark:text-dark-text-color sm:text-2xl",
+        "children": [
+          " شروط وأحكام بي كير "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray text-xs mb-8 dark:text-dark-text-color",
+        "children": [
+          {
+            "tag": "p",
+            "classes": "mb-4",
+            "children": [
+              " تنطبق هذه الشروط والأحكام على استخدامك لخدمة بي كير. باستخدامك موقع بي كير، فإنك توافق على الالتزام بهذه الشروط والأحكام. إذا كنت لا توافق على هذه الشروط والأحكام، فيجب عليك عدم استخدام الموقع. نحن نحتفظ بحقنا في تغيير الشروط والأحكام من وقت لآخر. ولذلك، يطلب منك التحقق مرة أخرى بشكل دوري. لن نتصل بك لإبلاغك بأي تغييرات يتم إجراؤها على تلك الشروط والأحكام. إن استمرارك في استخدام موقع بي كير يعني موافقتك على الشروط والأحكام المطبقة في وقت استخدامك للموقع. "
+            ]
+          },
+          {
+            "tag": "p",
+            "classes": "",
+            "children": [
+              "اخر تحديث 01/01/2025"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 1) تعريفات "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "أنت وجميع التعبيرات المشابهة تشير إلى مستخدم موقع بي كير. نحن وجميع التعبيرات المشابهة تعني وسيط العناية لشركة وساطة التأمين. يشير موقع بي كير إلى التعبير المحدد أعلاه. معلومات المستخدم تعني التفاصيل الشخصية التي تقدمها لنا عبر موقع بي كير. المستخدمون يعني مستخدمي موقع بي كير بشكل عام كما يشير السياق. الموقع يعني الموقع على شبكة الإنترنت العالمية. المحتوى يعني أي مراجعات أو تعليقات أو رسائل أو بيانات أو معلومات أو نص أو صورة أو صوت أو رسم أو فيديو أو رمز أو غيرها من المواد المعروضة أو المنشورة على موقع بي كير."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "الشروط والأحكام تعني تلك الشروط والأحكام التي قد تخضع للتعديل والتغيير من وقت لآخر."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 2) الاستخدام المشروع "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "2-1) لتسجيل الدخول إلى موقع بي كير، يجب أن يكون عمرك 18 عامًا على الأقل (حسب التقويم الميلادي) ويجب أن تتمتع بالأهلية القانونية الكاملة."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "2-2) أي شخص أقل من 18 سنة (حسب التقويم الميلادي) ويرغب في الدخول إلى موقع بي كير يجب عليه الحصول على موافقة والديه أو ولي أمره."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "2-3) تقر بأن لديك الحق والأهلية القانونية لاستخدام موقع بي كير بموجب الشروط والأحكام المنصوص عليها هنا."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 3) المحتوى المقدم من قبل المستخدم "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "3-1) يتعهد العميل بقبول استخدام ونقل وتبادل معلوماته الشخصية والتأمينية مع شركات التأمين والجهات المعنية."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "3-2) إذا كانت لديك أي شكوى ناشئة عن أي محتوى تم نشره أو تحميله أو بثه أو توزيعه أو حفظه بواسطة مستخدم أو نشره مباشرة على موقع بي كير مباشرة أو عبر موقع ويب خاص بطرف ثالث، فإنك توافق على ذلك لتقديم شكوى ضد هذا المستخدم وليس ضدنا."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "3-3) نحن غير ملزمين، ولا يوجد أي بند في هذه الشروط والأحكام يلزمنا بأي شكل من الأشكال، باستخدام أي محتوى. بالإضافة إلى ذلك، فإننا، في حالة استخدام المحتوى، غير ملزمين بالوفاء بأي التزامات مالية تجاهك بسبب هذا الاستخدام."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "3-4) تقر بأن جميع المعلومات المدخلة صحيحة وغير مضللة. وفي حالة تبين خلاف ذلك، فإنك تتحمل المسؤولية الكاملة عن ذلك."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 4) الخدمات المقدمة "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "4-1) سيقوم موقع بي كير بإتاحة وعرض المنتجات التأمينية الخاصة بشركة التأمين المرخصة من هيئة التأمين."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "4-2) سيقوم موقع بي كير بعرض أسعار المنتجات التأمينية المتوفرة على الموقع بأسعار تنافسية، حيث سيكون للمستخدم حرية اختيار التغطية المطلوبة بالسعر المطلوب."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "4-3) سيقوم موقع بي كير بتحديد مدة محددة لعرض التغطية التأمينية على ألا تقل هذه المدة عن 24 ساعة."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "4-4) موقع بي كير متاح للاستخدام على مدار الساعة."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 5) خطوات التطبيق "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "5-1) يجب على المستخدم إدخال المعلومات الأساسية لعملية التسعير."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "5-2) سيتم عرض جدول المقارنة مع المزايا الإضافية."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "5-3) يجب على المستخدم إدخال معلومات الدفع."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "5-4) يجب على المستخدم اختيار طريقة الدفع."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "5-5) يتم إصدار وطباعة البوليصة من قبل العميل مباشرة."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 6) طرق الدفع "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "6-1) بطاقة الائتمان (فيزا/ماستركارد)."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "6-2) خدمة سداد."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "6-3) مدى."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "6-4) أمريكان إكسبريس"
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "5-6) أبل باي، إس تي سي باي."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 7) المسؤولية "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "7-1) نسعى إلى تزويد موقع بي كير بجميع أنواع الرعاية المطلوبة بشكل معقول بموجب قواعد وأنظمة هيئة التأمين. لا نتعهد بأن محتوى موقع بي كير أو أي وظائف يحتوي عليها أو أي من خوادمه سوف تعمل دون انقطاع أو تأخير أو خطأ، أو أنها خالية من الفيروسات أو الأخطاء البرمجية أو أنها متوافقة مع أي برنامج أو مادة أخرى ."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "7-2) لن نتحمل المسؤولية أمامك أو أمام أي شخص آخر فيما يتعلق بأي خسارة ناتجة عن أمر خارج عن إرادتنا. ويشمل ذلك خلل المعدات الإلكترونية والميكانيكية وخطوط الاتصالات (بما في ذلك الهاتف والكابلات والإنترنت)، والوصول غير القانوني، والرموز الضارة، والسرقة، وأخطاء التشغيل، والظروف الجوية القاسية أو غير الطبيعية (بما في ذلك الفيضانات والزلازل أو غيرها من أعمال القضاء والقدر). )، حريق، حرب، عصيان، أعمال إرهابية، أعمال شغب، نزاعات عمالية، خلافات عمالية أخرى، حوادث، حالات طوارئ، تأخيرات، حجوزات زائدة أو ملغاة، وفاة حاكم، أو أي عمل من قبل الحكومة."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 8) التعويضات "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "8-1) يجب أن تقر بأننا شركة تأمين فقط ونقطة عرض وليس من مسؤوليتنا تعويض أي مطالبات أو تقديم أي تعويضات بسبب تقصير أي طرف ثالث (شركات التأمين)."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "8-2) يجب عليك أن تقر وتوافق على تعويضنا، وأي جهة ذات صلة بنا، وموظفينا، ومسؤولينا فورًا وعند الطلب عن جميع المطالبات والالتزامات والخسائر والتكاليف بما في ذلك الرسوم القانونية الناتجة عن أي خرق أو انتهاك لـ هذه الشروط والأحكام من قبلك أو أي أضرار أخرى تنتج عن استخدامك لموقع بي كير."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 9) الإنهاء "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "نحن نحتفظ بحقنا في إنهاء استخدامك لموقع بي كير على الفور في حالة انتهاكك لأي بند من هذه الشروط والأحكام أو إذا اعتقدنا، لأسباب معقولة، أنك قد تنتهك بنود هذه الشروط والأحكام أو إذا كنت تتصرف بطريقة الطريقة التي نعتبرها، وفقًا لتقديرنا الخاص، غير مقبولة."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 10) الاتصالات "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "إذا كنت تريد أن تقدم لنا أي تعليق حول موقع بي كير أو الاستفسار عنه، فلا تتردد في التعاقد معنا على الأرقام المتاحة على موقع بي كير."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 11) صلاحية الموقع "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "11-1) بما أن الخدمات الإلكترونية معرضة للخلل أو التعطل، فإن الدخول إلى موقع بي كير متاح كما هو حالياً."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "11-2) يجوز لنا، وفقًا لتقديرنا الخاص، فرض قيود وحدود على استخدامك لموقع بي كير، وبالإضافة إلى ذلك، يجوز لنا ذلك، لأغراض أمنية وأسباب فنية أو صيانة أو قانونية، أو نتيجة لأي انتهاك هذه الشروط والأحكام، أو سحب موقع بي كير أو دخولك إلى موقع بي كير في أي وقت دون إشعار مسبق من جانبنا."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 12) عام "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "12-1) في حال قررت أي محكمة أو مشروع أن أي بند من هذه الشروط والأحكام غير صالح أو غير قابل للتطبيق بأي شكل من الأشكال، فسيتم إلغاؤه وشطبه وتكون البنود المتبقية من الشروط والأحكام سارية بالكامل."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "12-2) تخضع هذه الشروط والأحكام وموقع بي كير لقواعد وأنظمة هيئة التأمين. تتم تسوية المنازعات عن طريق المحاكم المختصة أو لجان تسوية المنازعات ومخالفات التأمين في المملكة العربية السعودية."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 13) ملف الشركة "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "شركة بروكر كير لوساطة التأمين حاصلة على سجل تجاري رقم 1010428697 وترخيص هيئة التأمين رقم 20152/80/ش/ و س ط بتاريخ 1436/04/22هـ لمزاولة نشاط الوساطة التأمينية،"
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "عنوان المقر الرئيسي: وحدة رقم 2، مبنى رقم 2335، ص.ب. ص.ب 241237 الرمز البريدي 11322 الرياض هاتف. 8001180044، فاكس: 0112040028."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color my-16 sm:mb-0 underline underline-offset-1 newWarn decoration-newWarn ng-star-inserted",
+            "children": [
+              "ملاحظة: جميع الشروط والأحكام متوافقة مع قواعد وأنظمة هيئة التأمين."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "tag": "div",
+    "classes": "flex flex-col dark:bg-dark-primary sm:px-4",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "text-yellowtheme text-5xl font-bold mb-8 sm:text-4xl",
+        "children": [
+          " Terms & Conditions "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray text-3xl mb-4 dark:text-dark-text-color sm:text-2xl",
+        "children": [
+          " BCare Terms & Conditions "
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "text-bolder-light-gray text-xs mb-8 dark:text-dark-text-color",
+        "children": [
+          {
+            "tag": "p",
+            "classes": "mb-4",
+            "children": [
+              " These terms and conditions apply to your use of BCare service. By using BCare website, you agree to complying with these terms and conditions.If you do not agree to these terms and conditions, you must not use the website. We reserve our right to change the terms and conditions from time to time. Therefore, you are required to check back periodically. We shall not call you to inform you of any changes made to those terms and conditions. Your continuation to use BCare website means that you agree to the terms and conditions applied at the time of your use of the website. "
+            ]
+          },
+          {
+            "tag": "p",
+            "classes": "",
+            "children": [
+              "Last update 01/01/2025"
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 1) Definitions "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              " and all similar expressions refer to the user of BCare website. ",
+              {
+                "tag": "br",
+                "classes": "",
+                "children": []
+              },
+              " '",
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "We"
+                ]
+              },
+              "' and all similar expressions mean 'Broker Care for Insurance BrokerCompany'. ",
+              {
+                "tag": "br",
+                "classes": "",
+                "children": []
+              },
+              " '",
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "BCare Website"
+                ]
+              },
+              "' refers to the above defined expression. ",
+              {
+                "tag": "br",
+                "classes": "",
+                "children": []
+              },
+              " '",
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "User’s information"
+                ]
+              },
+              "' means the personal details you provide us with via BCare website. ",
+              {
+                "tag": "br",
+                "classes": "",
+                "children": []
+              },
+              " '",
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "Users"
+                ]
+              },
+              "' means the users of BCare website in general as the context refers. ",
+              {
+                "tag": "br",
+                "classes": "",
+                "children": []
+              },
+              " '",
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "Website"
+                ]
+              },
+              "' means the website on the world wide web. ",
+              {
+                "tag": "br",
+                "classes": "",
+                "children": []
+              },
+              " '",
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "Content"
+                ]
+              },
+              "' means any reviews, feedback, messages, data, information, text, photo, voice, drawing, video, symbol or other materials shown or published on '",
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "BCare website"
+                ]
+              },
+              "'."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "'",
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "Terms and conditions"
+                ]
+              },
+              "' means those terms and conditions that might be subject to amendment and change from time to time."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 2) Legitimate Use "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "2-1)"
+                ]
+              },
+              " To log in to BCare website, you must be at least 18 years old (as per the Gregorian calendar) and must have a full legal capacity."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "2-2)"
+                ]
+              },
+              " Any person under 18 years old (as per the Gregorian calendar) and would like to log in to BCare website must obtain the approval of his parents or guardian."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "2-3)"
+                ]
+              },
+              " You shall acknowledge that you have the right and the legal capacity to use BCare website under the terms and conditions set forth herein."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 3) Content Provided by the User "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "3-1)"
+                ]
+              },
+              " Client shall undertake to accept using, transferring and sharing its personal and insurance information with insurers and the concerned authorities."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "3-2)"
+                ]
+              },
+              " If you have any complaint arising out of any content that has been published, uploaded, aired, distributed, or saved by a user or having it directly published on BCare website directly or via the website of a third party, you agree to file the complaint against that user rather than us."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "3-3)"
+                ]
+              },
+              " We are not bound, and no item in these terms and conditions binds us in any form, to use any content. Besides that, we, in the event of using the content, are not bound to meet any financial obligations towards you on account of this use."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "3-4)"
+                ]
+              },
+              " You shall acknowledge that all entered information is correct and not misleading. In the event of finding otherwise, you shall be fully responsible for that."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 4) Provided Services "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "4-1)"
+                ]
+              },
+              " BCare website will make available and display the insurance products of the insurer licensed by Insurance Authority."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "4-2)"
+                ]
+              },
+              " BCare website will display the prices of the insurance products that are available on the website with competitive prices, whereas the user will have the option to choose the desired coverage with the desired price."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "4-3)"
+                ]
+              },
+              " BCare website will fix a specific period for displaying the insurance coverage, provided that this fixation shall not be less than 24 hours."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "4-4)"
+                ]
+              },
+              " BCare website is available for use around the clock."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 5) Application Steps "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "5-1) User shall enter the basic information of the pricing process."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "5-2) Comparison table, with the additional benefits, will be displayed."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "5-3) User shall enter the payment information."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "5-4) User shall choose the payment method."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "5-5) Policy shall be issued and printed out by the client directly."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 6) Payment Methods "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "6-1) Credit Card (Visa/MasterCard)."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "6-2) SADAD Service."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "6-3) MADA."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "6-4) American Express"
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "5-6) Apple Pay, STC Pay."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 7) Responsibility "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "7-1)"
+                ]
+              },
+              " We seek to provide BCare website with all the reasonably required types of care under the rules and regulations of Insurance Authority. We do not promise that the content of BCare website, any employments it contains or any of its servers shall work without interruption, delay or error, that they are free from viruses or the programming errors or that they are compatible with any other program or material."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "7-2)"
+                ]
+              },
+              " We shall not be held responsible before you or any other person regarding any loss resulting from a matter out of our control. This includes the malfunction of the electronic and mechanical equipment and telecommunication lines (including telephone, cables, and internet), illegal access, harmful codes, theft, operating errors, harsh or abnormal weather conditions (including floods, earthquakes, or other acts of God), fire, war, disobedience, terror acts, riot, labor disputes, other labor differences, accidents, emergencies, delays, excess or canceled bookings, death of a ruler, or any act by the government."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 8) Indemnities "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "8-1)"
+                ]
+              },
+              " You shall acknowledge that we are an insurer only and a point of display and it is not our responsibility to compensate any claims or make any compensations on account of the default of any third party (insurers)."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "8-2)"
+                ]
+              },
+              " You shall acknowledge and agree to compensate us, any authority related to us, our employees, and officers immediately and on request for all the claims, obligations, losses, and costs including the legal fees resulting from any breach or violation to these conditions and terms by you or any other damages resulting from your using BCare website."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 9) Termination "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "We reserve our right to immediately terminate your use of BCare website in the event you violate any item of these terms and conditions or if we believe, on reasonable reasons, that you might violate the items of these terms and conditions or if you act in a way we consider, at our sole discretion, unacceptable."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 10) Communication "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              "If you want to give us any comment about BCare website or inquire about it, please feel free to contract us on the numbers available on BCare website."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 11) Validity of the Website "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "11-1)"
+                ]
+              },
+              " As electronic services are prone to disruption or breakdown, access to BCare website is available 'as it is' currently."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "11-2)"
+                ]
+              },
+              " We may, at our sole discretion, impose restrictions and limitations on your use of BCare website, and, additionally, we may, for security purposes and technical, maintenance, or legal reasons, or as a result of any violation to these terms and conditions, withdraw BCare website or your access to BCare website at any time without prior notice from our side."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 12) General "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "12-1)"
+                ]
+              },
+              " In the event any court or project decides that any item of these terms and condition is invalid or inapplicable in any way, the same shall be canceled and stricken out and the remaining items of the terms and conditions shall be fully valid."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color ng-star-inserted",
+            "children": [
+              {
+                "tag": "span",
+                "classes": "text-yellowtheme",
+                "children": [
+                  "12-2)"
+                ]
+              },
+              " Those terms and condition and BCare website are subject to rules and regulations of Insurance Authority. Disputes shall be settled by the competent courts or the disputes and insurance violations resolution commissions in the Kingdom of Saudi Arabia."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "mb-12 ng-star-inserted",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "text-yellowtheme text-2xl font-semibold mb-4",
+            "children": [
+              " 13) Company’s Profile "
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "Broker Care for Insurance Broker Company holds C.R. No. 1010428697 and Insurance Authority license No. 20152/80/ش/ و س ط, dated 22/04/1436H, to exercise the activity of insurance mediation,"
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color mb-4 ng-star-inserted",
+            "children": [
+              "headquarters address: Unit No. 2, building No. 2335, P.O. Box 241237 Zip Code 11322, Riyadh, Tel. 8001180044, Fax: 0112040028."
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "text-bolder-light-gray text-xs dark:text-dark-text-color my-16 sm:mb-0 underline underline-offset-1 newWarn decoration-newWarn ng-star-inserted",
+            "children": [
+              "Note: All terms and conditions are compliant with the rules and regulations of SAMA."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
